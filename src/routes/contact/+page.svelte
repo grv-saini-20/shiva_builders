@@ -53,7 +53,7 @@ ${name}`;
 
 <!-- Hero Section -->
 <section class="relative flex min-h-[70vh] flex-col items-center justify-center px-6 py-20 overflow-hidden">
-  <div class="absolute inset-0 bg-[url(/images/herobg.webp)] lg:bg-fixed bg-cover bg-center"></div>
+  <div class="absolute inset-0 bg-[url(/images/DWC1.jpg)] lg:bg-fixed bg-cover bg-center"></div>
   <div class="absolute inset-0 bg-black/60"></div>
 
   <div class="relative z-10 text-center max-w-3xl">

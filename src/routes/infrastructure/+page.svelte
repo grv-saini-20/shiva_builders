@@ -46,7 +46,7 @@
 
 <!-- Hero Section -->
 <section class="relative flex min-h-[70vh] items-center justify-center overflow-hidden">
-  <div class="absolute inset-0 bg-[url(/images/herobg.webp)] bg-cover bg-center lg:bg-fixed"></div>
+  <div class="absolute inset-0 bg-[url(/images/DWC1.jpg)] bg-cover bg-center lg:bg-fixed"></div>
   <div class="absolute inset-0 bg-black/50"></div>
   <div class="relative z-10 text-center max-w-3xl px-6">
     <h1 use:inView class="reveal text-4xl sm:text-5xl md:text-6xl font-extrabold text-yellow-500 uppercase leading-snug sm:leading-tight md:leading-tight px-2">

@@ -31,7 +31,7 @@
 
 <!-- HERO -->
 <section class="relative flex min-h-[70vh] flex-col items-center justify-center px-6 py-24 overflow-hidden">
-  <div class="absolute inset-0 lg:bg-fixed bg-[url(/images/herobg.webp)] bg-cover bg-center"></div>
+  <div class="absolute inset-0 lg:bg-fixed bg-[url(/images/DWC1.jpg)] bg-cover bg-center"></div>
   <div class="absolute inset-0 bg-black/50"></div>
 
   <div class="relative z-10 text-center max-w-3xl">
