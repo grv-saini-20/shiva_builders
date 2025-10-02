@@ -3,17 +3,18 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 const dev = process.env.NODE_ENV === 'development';
 
-const config = {
+export default {
   preprocess: vitePreprocess(),
   kit: {
     adapter: adapter({
-      // fallback allows SPA behavior for dynamic routes
+      // Fallback allows SPA behavior
       fallback: 'index.html'
     }),
     paths: {
       base: dev ? '' : '/shiva_builders'
+    },
+    prerender: {
+      default: true
     }
   }
 };
-
-export default config;
