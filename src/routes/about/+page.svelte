@@ -233,9 +233,4 @@ ABOUT US</h1>
 		transform: translateY(20px);
 		transition: all 0.6s ease-out;
 	}
-
-	/* Parallax backgrounds */
-	.bg-fixed {
-		background-attachment: fixed;
-	}
 </style>

@@ -1,14 +1,19 @@
 import adapter from '@sveltejs/adapter-static';
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
-const config = {
+const dev = process.env.NODE_ENV === 'development';
+
+export default {
+  preprocess: vitePreprocess(),
   kit: {
     adapter: adapter({
-      fallback: 'index.html' // or '200.html' depending on your preference
+      fallback: 'index.html' // SPA fallback for GitHub Pages
     }),
     paths: {
-      base: '/shivabuilder'
+      base: dev ? '' : '/shiva_builders' // GitHub repo name
+    },
+    prerender: {
+      entries: [] // <-- disable prerendering
     }
   }
 };
-
-export default config;

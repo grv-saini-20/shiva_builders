@@ -223,8 +223,4 @@
 	.animate-blob {
 		animation: blob 8s infinite;
 	}
-
-	.bg-fixed {
-		background-attachment: fixed;
-	}
 </style>
