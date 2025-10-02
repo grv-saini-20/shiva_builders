@@ -53,8 +53,8 @@
   <div class="absolute -bottom-20 -right-20 w-96 h-96 bg-yellow-300/10 rounded-full blur-3xl animate-blob"></div> -->
 
 	<div class="relative z-10 mb-16 text-start">
-		<h2 class="text-4xl font-bold text-gray-900 uppercase">Why Choose Us</h2>
-		<div class="mx-auto mt-4 h-1 w-24 rounded-full bg-yellow-500"></div>
+		<h2 class="text-4xl text-center font-bold text-gray-900 uppercase reveal" use:inView>Why Choose Us</h2>
+		<div class="mx-auto mt-4 h-1 w-24 rounded-full bg-yellow-500 reveal" use:inView></div>
 	</div>
 
 	<div class="relative z-10 mx-auto grid max-w-7xl gap-12 md:grid-cols-2 lg:grid-cols-3">

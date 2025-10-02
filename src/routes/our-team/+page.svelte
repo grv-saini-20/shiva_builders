@@ -31,8 +31,8 @@
 
 <section class="bg-white py-20 px-6 md:px-16 lg:px-32">
   <div class="max-w-5xl mx-auto text-center">
-    <h2 class="reveal text-3xl font-bold text-black-900  uppercase" use:inView>Our team</h2>
-    <div class="reveal mx-auto mt-3 h-1 w-20 rounded-full text-black-900 mb-12" use:inView></div>
+    <h2 class="text-4xl text-center font-bold text-gray-900 uppercase reveal" use:inView>Our team</h2>
+	<div class="mx-auto mt-4 h-1 w-24 rounded-full bg-yellow-500 mb-16 reveal" use:inView></div>
 
     <p class="text-lg md:text-xl text-gray-900 leading-relaxed mb-6 reveal" use:inView>
       Shiva Builders holds pride in talking about its team of 

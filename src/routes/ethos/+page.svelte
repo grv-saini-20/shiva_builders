@@ -48,8 +48,8 @@ Ethos</h1>
 <!-- CORE PRINCIPLES -->
 <section class="bg-white px-6 py-20">
 	<div class="mb-12 text-center">
-		<h2 class="text-3xl font-bold text-gray-900 uppercase">Our Core Principles</h2>
-		<div class="mx-auto mt-3 h-1 w-20 rounded-full bg-yellow-500"></div>
+		<h2 use:inView class="reveal text-3xl font-bold text-gray-900 uppercase">Our Core Principles</h2>
+		<div use:inView class="reveal mx-auto mt-3 h-1 w-20 rounded-full bg-yellow-500"></div>
 	</div>
 
 	<div class="mx-auto grid max-w-7xl gap-12 sm:grid-cols-2 lg:grid-cols-3">
