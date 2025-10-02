@@ -7,14 +7,17 @@ export default {
   preprocess: vitePreprocess(),
   kit: {
     adapter: adapter({
-      fallback: 'index.html'
+      fallback: 'index.html',
     }),
     paths: {
-      base: dev ? '' : '/shivabuilder',
-      relative: false
+      // **CRITICAL FIX: REMOVE 'base'** when 'relative: true' is used for static/SPA deployment
+      // base: dev ? '' : '/shiva_builders', 
+      
+      // Must be true to generate relative links (e.g., ./_app/...)
+      relative: true
     },
     prerender: {
-      entries: [] // disable prerender crawling for SPA
+      entries: ['/'] 
     }
   }
 };
