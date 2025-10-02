@@ -91,7 +91,7 @@
 		<div class="flex h-16 items-center justify-between">
 			<!-- Logo -->
 			<div class="flex items-center">
-				<a href="/" class="text-2xl font-bold text-gray-900">Shiva Builders</a>
+				<a href="/" class="text-xl font-bold text-gray-900">Shiva Builders</a>
 			</div>
 
 			<!-- Desktop Menu -->
