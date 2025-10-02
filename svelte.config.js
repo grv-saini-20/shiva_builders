@@ -7,13 +7,15 @@ export default {
   preprocess: vitePreprocess(),
   kit: {
     adapter: adapter({
-      fallback: 'index.html' // SPA fallback for GitHub Pages
+      // SPA fallback
+      fallback: 'index.html'
     }),
     paths: {
-      base: dev ? '' : '/shiva_builders' // GitHub repo name
+      base: dev ? '' : '/shiva_builders',
     },
     prerender: {
-      entries: [] // <-- disable prerendering
+      // disable prerender entirely for SPA
+      entries: []
     }
   }
 };
