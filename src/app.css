@@ -1,0 +1,80 @@
+@import 'tailwindcss';
+
+@font-face {
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	src: url('/fonts/Inter-Bold.ttf') format('truetype');
+}
+
+@theme {
+	/* Font Families */
+	--font-inter: 'Inter', sans-serif;
+
+	/* Brand Colors (extracted + matched to Tailwind scheme) */
+	--color-background: #07090e;
+
+	--color-gray-900: #1f2937; /* close to gray-900 */
+	--color-gray-700: #333333; /* extracted dark gray */
+	--color-gray-300: #d1d5db; /* gray-300 text */
+
+	--color-yellow-500: #facc15; /* yellow-400 / amber-500 accent */
+	--color-yellow-300: #fde68a; /* light yellow for hover */
+
+	--color-white: #ffffff; /* white */
+
+	--color-black-900: #0d111a; /* darkest section bg */
+	--color-black-700: #151a26; /* dark cards/sections */
+}
+
+/* Base Typography Layer */
+@layer base {
+	body {
+		@apply bg-white font-inter text-black-900;
+	}
+
+	h1 {
+		@apply font-inter text-5xl leading-tight font-bold md:text-6xl;
+	}
+
+	h2 {
+		@apply font-inter text-4xl leading-snug font-bold md:text-5xl;
+	}
+
+	h3 {
+		@apply font-inter text-2xl leading-snug font-semibold md:text-3xl;
+	}
+
+	h4 {
+		@apply font-inter text-xl leading-snug font-semibold;
+	}
+
+	h5 {
+		@apply font-inter text-lg leading-snug font-medium;
+	}
+
+	p {
+		@apply font-inter text-base leading-relaxed font-normal text-white;
+	}
+
+	button {
+		@apply rounded px-6 py-2 font-inter text-base font-semibold;
+	}
+
+	.small {
+		@apply text-sm leading-snug font-normal;
+	}
+
+	.subtext {
+		@apply text-xs leading-snug font-normal;
+	}
+
+	/* Scrollbar Hide Utility */
+	.hide-scrollbar {
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+	.hide-scrollbar::-webkit-scrollbar {
+		display: none;
+	}
+}
