@@ -1,22 +1,15 @@
 import adapter from '@sveltejs/adapter-static';
-import {sveltePreprocess} from 'svelte-preprocess'; // Using external svelte-preprocess package
-
-const dev = process.argv.includes('dev');
-const base = dev ? '' : '/shiva_builders'; // Subpath base for static hosting
+import { vitePreprocess } from '@sveltejs/kit/vite';
 
 export default {
-  preprocess: sveltePreprocess(), // Using svelte-preprocess
+  preprocess: vitePreprocess(),
   kit: {
     adapter: adapter({
-      fallback: 'index.html' // SPA fallback handles routing
+      fallback: 'index.html'
     }),
     paths: {
-      base, // Applies '/shiva_builders' in production build
+      base: '',    // 👈 no custom base needed
       relative: false
     },
-    // Removes all automatic prerendering, relying entirely on the SPA fallback.
-    prerender: {
-      entries: [] 
-    }
   }
 };
