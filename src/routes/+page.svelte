@@ -70,7 +70,7 @@
 		<p class="reveal mt-6 mb-8 text-lg text-gray-300 sm:text-xl uppercase" use:inView>
 From visionary designs to on-time delivery, Shiva Builders brings innovation and quality to every project.		</p>
 		<div use:inView class="reveal">
-			<Button handleClick={() => alert('afs')}>Get in Touch</Button>
+			<Button handleClick={() => goto("/contact")}>Get in Touch</Button>
 		</div>
 	</div>
 </section>
