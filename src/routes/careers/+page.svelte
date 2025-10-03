@@ -27,7 +27,7 @@
 	const positions = [
 		{
 			title: 'General Manager (Civil)',
-			description: 'Lead, plan, and oversee major infrastructure projects at DWC Infra.',
+			description: 'Lead, plan, and oversee major infrastructure projects at Shiva Builders.',
 			responsibilities: [
 				'Oversee all civil engineering projects from planning to completion',
 				'Lead cross-functional teams and manage resources'
@@ -231,7 +231,7 @@
 		</p>
 		<p class="mt-6 text-lg text-gray-100 uppercase">
 			Send your applications at:
-			<span class="font-bold text-yellow-400">careers@dwcinfra.com</span>
+			<span class="font-bold text-yellow-400">careers@shivabuilders.com</span>
 		</p>
 	</div>
 </section>

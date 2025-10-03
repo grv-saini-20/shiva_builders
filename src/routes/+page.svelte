@@ -112,7 +112,7 @@
 			<ServiceCard
 				imageUrl="/images/JLPL.webp"
 				title="Commercial"
-				description="DWC Infra redefines commercial construction by merging modern design with functionality. Each project reflects our commitment to quality and creativity, setting new industry standards."
+				description="Shiva Builders redefines commercial construction by merging modern design with functionality. Each project reflects our commitment to quality and creativity, setting new industry standards."
 				class="flex h-full flex-col"
 			/>
 		</div>
@@ -130,7 +130,7 @@
 			<ServiceCard
 				title="Infrastructure"
 				imageUrl="/images/ALC.webp"
-				description="DWC Infra transforms traditional construction with innovative designs that prioritize functionality and aesthetics. Our projects enhance community landscapes while ensuring quality and sustainability, effectively addressing the evolving needs of modern businesses."
+				description="Shiva Builders transforms traditional construction with innovative designs that prioritize functionality and aesthetics. Our projects enhance community landscapes while ensuring quality and sustainability, effectively addressing the evolving needs of modern businesses."
 				class="flex h-full flex-col"
 			/>
 		</div>
