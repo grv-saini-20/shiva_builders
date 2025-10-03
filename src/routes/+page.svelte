@@ -98,12 +98,17 @@
 <!-- SERVICES -->
 <section class="bg-white px-6 py-20">
 	<div class="text-center">
-		<h3 class="reveal text-4xl font-bold text-black uppercase" use:inView>What We Offer</h3>
-		<div class="reveal mx-auto mt-4 h-1 w-20 rounded-full bg-yellow-500" use:inView></div>
+		<h3 class="reveal text-4xl font-bold text-black uppercase" use:inView>
+			What We Offer
+		</h3>
+		<div
+			class="reveal mx-auto mt-4 h-1 w-20 rounded-full bg-yellow-500"
+			use:inView
+		></div>
 	</div>
 
 	<div class="mt-16 flex flex-wrap justify-center gap-12 md:gap-8 lg:gap-6">
-		<div use:inView class="reveal flex max-w-sm min-w-[280px] flex-1">
+		<div use:inView class="reveal flex max-w-sm min-w-[280px]">
 			<ServiceCard
 				imageUrl="/images/JLPL.webp"
 				title="Commercial"
@@ -112,7 +117,7 @@
 			/>
 		</div>
 
-		<div use:inView class="reveal flex max-w-sm min-w-[280px] flex-1">
+		<div use:inView class="reveal flex max-w-sm min-w-[280px]">
 			<ServiceCard
 				title="Resedential"
 				imageUrl="/images/MehakApartments.webp"
@@ -121,7 +126,7 @@
 			/>
 		</div>
 
-		<div use:inView class="reveal flex max-w-sm min-w-[280px] flex-1">
+		<div use:inView class="reveal flex max-w-sm min-w-[280px]">
 			<ServiceCard
 				title="Infrastructure"
 				imageUrl="/images/ALC.webp"
@@ -131,6 +136,7 @@
 		</div>
 	</div>
 </section>
+
 
 <!-- STATS -->
 <section class="bg-gray-700 px-6 py-20">
