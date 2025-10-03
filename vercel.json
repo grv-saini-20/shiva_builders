@@ -1,5 +1,6 @@
 {
+  "outputDirectory": "build",
   "rewrites": [
-    { "source": "/shiva_builders/(.*)", "destination": "/shiva_builders/index.html" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
