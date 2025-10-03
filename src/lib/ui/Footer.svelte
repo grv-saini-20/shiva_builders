@@ -18,7 +18,7 @@
 					<!-- Logo (Using Lucide Icon for a clean, vector look) -->
 					<HugeiconsIcon
 						icon={Building01FreeIcons}
-						size={24}
+						size={32}
 						color="currentColor"
 						strokeWidth={1.5}
 					/>
@@ -82,7 +82,7 @@
 					<li class="flex items-start space-x-3">
 						<HugeiconsIcon
 							icon={Building01FreeIcons}
-							size={24}
+							size={32}
 							color="currentColor"
 							strokeWidth={1.5}
 						/> <span>Address: 373, Phase-2, Indusrial Area, Panchkula 134109, Haryana (INDIA)</span>
@@ -106,8 +106,15 @@
 		</div>
 
 		<!-- Bottom Section: Copyright Bar -->
-		<div class="pt-8 text-center text-sm text-gray-400 md:text-left">
-			© {new Date().getFullYear()} ShivaBuilders. All rights reserved.
+		 <div class="pt-8 flex flex-col items-center justify-between space-y-4 md:flex-row md:space-y-0">
+			 <div class="text-center text-sm text-gray-400 md:text-left">
+				 © {new Date().getFullYear()} ShivaBuilders. All rights reserved.
+				</div>
+				<div class="flex space-x-6">
+					<a href="/privacy-policy" class="text-sm text-gray-400 hover:text-yellow-500 transition-colors">Privacy Policy</a>
+					<a href="/terms" class="text-sm text-gray-400 hover:text-yellow-500 transition-colors">Terms of Service</a>
+					<a href="/legal" class="text-sm text-gray-400 hover:text-yellow-500 transition-colors">Legal</a>
+				</div>
+			</div>
 		</div>
-	</div>
 </footer>
