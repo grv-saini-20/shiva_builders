@@ -3,6 +3,7 @@
 	"private": true,
 	"version": "0.0.1",
 	"type": "module",
+	"homepage": "https://grv-saini-20.github.io/shiva_builders",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
