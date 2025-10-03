@@ -91,7 +91,9 @@
 		<div class="flex h-16 items-center justify-between">
 			<!-- Logo -->
 			<div class="flex items-center">
-				<a href="/" class="text-xl font-bold text-gray-900">Shiva Builders</a>
+				<a href="/" class="text-xl font-bold text-gray-900">
+    <img src="/images/SBLOGO.jpg" alt="logo" class="h-10 w-auto" />
+				</a>
 			</div>
 
 			<!-- Desktop Menu -->

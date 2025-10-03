@@ -24,7 +24,7 @@
 					/>
 					<div>
 						<h3 class="text-xl font-bold tracking-wider uppercase">Shiva Builders</h3>
-						<p class="text-xs text-gray-400">Construction & Design Services</p>
+						<p class="text-xs text-gray-400">Construction & Design </p>
 					</div>
 				</div>
 				<!-- Optional: Add a short, descriptive blurb here if needed -->
