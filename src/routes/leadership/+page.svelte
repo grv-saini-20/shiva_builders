@@ -87,7 +87,7 @@
 
 	<!-- Leader 2 -->
 	<div
-		class="relative flex flex-col items-center text-center md:flex-row-reverse md:justify-between md:text-left"
+		class="relative flex flex-col items-center text-center md:flex-row-reverse md:justify-between md:text-left my-24"
 	>
 		<div class="md:w-1/2 md:pl-12">
 			<h2 use:inView class="reveal text-2xl font-bold text-gray-900">MR. MUKUL WADHAWAN</h2>
