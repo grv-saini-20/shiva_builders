@@ -97,17 +97,35 @@ From visionary designs to on-time delivery, Shiva Builders brings innovation and
 		<div class="reveal mx-auto mt-4 h-1 w-20 rounded-full bg-yellow-500" use:inView></div>
 	</div>
 
-	<div class="mt-16 flex flex-wrap items-center justify-center gap-12">
-		<div use:inView class="reveal">
-			<ServiceCard imageUrl="/images/JLPL.webp" title="Commercial" />
-		</div>
-		<div use:inView class="reveal">
-			<ServiceCard title="Resedential" imageUrl="/images/MehakApartments.webp" />
-		</div>
-		<div use:inView class="reveal">
-			<ServiceCard title="Infrastructure" imageUrl="/images/ALC.webp" />
-		</div>
-	</div>
+	<div class="mt-16 flex flex-wrap justify-center gap-12 md:gap-8 lg:gap-6 ">
+  <div use:inView class="reveal flex-1 min-w-[280px] max-w-sm flex">
+    <ServiceCard 
+      imageUrl="/images/JLPL.webp" 
+      title="Commercial" 
+      description="DWC Infra redefines commercial construction by merging modern design with functionality. Each project reflects our commitment to quality and creativity, setting new industry standards." 
+      class="flex flex-col h-full"
+    />
+  </div>
+
+  <div use:inView class="reveal flex-1 min-w-[280px] max-w-sm flex">
+    <ServiceCard 
+      title="Resedential" 
+      imageUrl="/images/MehakApartments.webp" 
+      description="Our residential projects, whether single-family homes or multi-unit developments, prioritize comfort, aesthetics, and energy efficiency, helping you find the perfect place to call home." 
+      class="flex flex-col h-full"
+    />
+  </div>
+
+  <div use:inView class="reveal flex-1 min-w-[280px] max-w-sm flex">
+    <ServiceCard 
+      title="Infrastructure" 
+      imageUrl="/images/ALC.webp" 
+      description="DWC Infra transforms traditional construction with innovative designs that prioritize functionality and aesthetics. Our projects enhance community landscapes while ensuring quality and sustainability, effectively addressing the evolving needs of modern businesses." 
+      class="flex flex-col h-full"
+    />
+  </div>
+</div>
+
 </section>
 
 <!-- STATS -->

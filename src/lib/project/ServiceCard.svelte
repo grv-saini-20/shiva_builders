@@ -17,7 +17,7 @@
 	}: IServiceCardProps = $props();
 
 	const baseClass = $derived(
-		`group max-w-xs w-full bg-black-900  overflow-hidden shadow-xl transition-all duration-300 hover:shadow-2xl hover:scale-[1.02] ${customClass}`
+		`h-full group max-w-xs w-full bg-black-900  overflow-hidden shadow-xl transition-all duration-300 hover:shadow-2xl hover:scale-[1.02] ${customClass}`
 	);
 </script>
 

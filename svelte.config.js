@@ -10,11 +10,10 @@ export default {
       fallback: 'index.html',
     }),
     paths: {
-      // **CRITICAL FIX: REMOVE 'base'** when 'relative: true' is used for static/SPA deployment
-      // base: dev ? '' : '/shiva_builders', 
-      
-      // Must be true to generate relative links (e.g., ./_app/...)
-      relative: true
+      // Re-enable base. This is the path the browser needs.
+      base: dev ? '' : '/shiva_builders', 
+      // Set relative back to false or omit it entirely.
+      relative: false 
     },
     prerender: {
       entries: ['/'] 

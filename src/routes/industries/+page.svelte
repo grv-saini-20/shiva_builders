@@ -84,7 +84,7 @@
 
 <!-- INDUSTRIES CARDS -->
 <section class="bg-gray-50 px-6 py-24">
-  <div class="max-w-7xl mx-auto space-y-20">
+  <div class="max-w-6xl mx-auto space-y-20">
     {#each industries as industry, i}
       <div
         id={industry.title}

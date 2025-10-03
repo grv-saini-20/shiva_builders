@@ -31,17 +31,17 @@
   const services = [
     {
       title: 'Infrastructure Development',
-      content: `DWC provides experienced and knowledgeable professionals to handle all phases of the project. As a General Contractor, we handle all types and sizes of projects, from fresh constructions to renovations. Workers and qualified sub-contractors deliver your project on-time with the highest degree of safety and quality.`,
+      content: `Shiva Builders provides experienced and knowledgeable professionals to handle all phases of the project. As a General Contractor, we handle all types and sizes of projects, from fresh constructions to renovations. Workers and qualified sub-contractors deliver your project on-time with the highest degree of safety and quality.`,
       image: '/images/InfrastructureDev.jpg'
     },
     {
       title: 'Design and Build',
-      content: `DWC establishes a single contract with the owner to provide full spectrum design, architectural, engineering, and construction services. Single point responsibility ensures quality, cost, and schedule adherence. Planning and execution evaluate materials and methods efficiently, saving time and money.`,
+      content: `Shiva Builders establishes a single contract with the owner to provide full spectrum design, architectural, engineering, and construction services. Single point responsibility ensures quality, cost, and schedule adherence. Planning and execution evaluate materials and methods efficiently, saving time and money.`,
       image: '/images/Design&Build.png'
     },
     {
       title: 'Joint Venture Model',
-      content: `DWC Infra’s joint venture services bring together industry expertise, advanced technology, and shared resources to deliver superior infrastructure solutions. Partnering with leading firms maximizes efficiency, reduces costs, and drives innovation.`,
+      content: `Shiva Builders Infra’s joint venture services bring together industry expertise, advanced technology, and shared resources to deliver superior infrastructure solutions. Partnering with leading firms maximizes efficiency, reduces costs, and drives innovation.`,
       image: '/images/JVM.jpg'
     }
   ];
@@ -62,24 +62,34 @@
 </section>
 
 <!-- SERVICES SECTIONS -->
-<section class="bg-white px-6 py-24 max-w-6xl mx-auto">
-  {#each services as service, i}
-    <div
-      class="relative flex flex-col md:flex-row items-center md:justify-between mb-24"
-      class:md:flex-row-reverse={i % 2 !== 0}
-    >
-      <!-- IMAGE -->
-      <div class="md:w-1/2 flex justify-center md:justify-start reveal" use:inView>
-        <img src={service.image} alt={service.title} class="shadow-lg w-full md:w-[90%] object-cover aspect-video" />
-      </div>
+<section class="bg-gray-50 px-6 py-24">
+  <div class="max-w-6xl mx-auto space-y-20">
+    {#each services as service, i}
+      <div
+        id={service.title}
+        class="reveal group relative flex flex-col md:flex-row items-center md:items-stretch overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-500 bg-white"
+        class:md:flex-row-reverse={i % 2 !== 0}
+        use:inView
+      >
+        <!-- IMAGE -->
+        <div class="md:w-1/2 overflow-hidden">
+          <img
+            src={service.image}
+            alt={service.title}
+            class="h-64 md:h-full w-full object-cover transform group-hover:scale-105 transition-transform duration-700 aspect-video"
+          />
+        </div>
 
-      <!-- TEXT -->
-      <div class="md:w-1/2 mt-8 md:mt-0 reveal" use:inView>
-        <h3 class="text-2xl font-bold text-gray-900 mb-4 border-l-4 border-yellow-500 ps-4 uppercase">{service.title}</h3>
-        <p class="text-gray-700 leading-relaxed">{service.content}</p>
+        <!-- TEXT -->
+        <div class="md:w-1/2 p-8 flex flex-col justify-center">
+          <h3 class="text-2xl font-bold text-gray-900 mb-4 border-l-4 border-yellow-500 pl-3 uppercase">
+            {service.title}
+          </h3>
+          <p class="text-gray-700 leading-relaxed">{service.content}</p>
+        </div>
       </div>
-    </div>
-  {/each}
+    {/each}
+  </div>
 </section>
 
 <style>
