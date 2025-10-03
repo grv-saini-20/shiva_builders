@@ -52,7 +52,7 @@
 
 <section class="min-h-screen bg-white px-6 py-20">
 	<div class="mx-auto max-w-7xl">
-		<div class="flex flex-wrap items-center justify-center gap-12">
+		<div class="flex flex-wrap items-stretch justify-center gap-12">
 			<article class="reveal" use:inView>
 				<ProjectCard
 					imageUrl="/images/ALC.webp"

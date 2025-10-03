@@ -16,6 +16,7 @@
 <a
 	{href}
 	class="
+	h-full
     group relative
     flex w-80
     max-w-sm
