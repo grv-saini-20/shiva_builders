@@ -28,7 +28,7 @@
 
 	// Base classes pulled from your @layer base and theme
 	const baseClasses =
-		'font-inter text-base font-semibold px-6 py-3 rounded transition-all duration-200 ease-in-out cursor-pointer text-center whitespace-nowrap';
+		'font-inter text-base font-semibold px-6 py-3 transition-all duration-200 ease-in-out cursor-pointer text-center whitespace-nowrap rounded-none';
 
 	// Classes for the Primary (Solid Yellow) variant: "GET IN TOUCH"
 	const primaryClasses = `

@@ -37,10 +37,15 @@
 	<div class="absolute inset-0 bg-black/50"></div>
 
 	<div class="relative z-10 max-w-3xl text-center">
-		    <h1 use:inView class="reveal text-4xl sm:text-5xl md:text-6xl font-extrabold text-yellow-500 uppercase leading-snug sm:leading-tight md:leading-tight px-2">
-CORPORATE SOCIAL RESPONSIBILITY</h1>
-		<p class="reveal mt-6 text-lg text-gray-200 sm:text-xl uppercase" use:inView>
-MAKING A POSITIVE IMPACT		</p>
+		<h1
+			use:inView
+			class="reveal px-2 text-4xl leading-snug font-extrabold text-yellow-500 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
+		>
+			CORPORATE SOCIAL RESPONSIBILITY
+		</h1>
+		<p class="reveal mt-6 text-lg text-gray-200 uppercase sm:text-xl" use:inView>
+			MAKING A POSITIVE IMPACT
+		</p>
 	</div>
 </section>
 
@@ -55,54 +60,77 @@ MAKING A POSITIVE IMPACT		</p>
 		<!-- Card 1:-->
 		<div
 			use:inView
-			class="reveal relative overflow-hidden  bg-gradient-to-br from-yellow-50 to-yellow-100 p-8 shadow-xl transition-transform duration-500 hover:scale-105"
+			class="reveal relative overflow-hidden bg-gradient-to-br from-yellow-50 to-yellow-100 p-8 shadow-xl transition-transform duration-500 hover:scale-105"
 		>
 			<div
 				class="animate-blob absolute -top-12 -right-12 h-48 w-48 rounded-full bg-yellow-200/30 blur-3xl"
 			></div>
 			<img src="/images/Integrity.svg" alt="Integrity" class="relative z-10 mb-4 h-16 w-16" />
-			<h3 class="relative z-10 text-2xl font-semibold text-gray-900 uppercase">ENVIRONMENTAL SUSTAINABILITY</h3>
+			<h3 class="relative z-10 text-2xl font-semibold text-gray-900 uppercase">
+				ENVIRONMENTAL SUSTAINABILITY
+			</h3>
 			<p class="relative z-10 mt-4 leading-relaxed text-gray-600">
-				We are committed to minimizing our environmental footprint. We actively promote sustainable practices within our company, such as energy conservation, waste reduction, and responsible resource management. We strive to leverage technology to develop eco-friendly solutions and encourage our employees to adopt environmentally conscious behaviors. Diversity and Inclusion: We embrace diversity and foster an inclusive work environment. We believe that diverse teams bring unique perspectives and enhance creativity and innovation. We promote equal opportunities, respect individual differences, and ensure a workplace that values and celebrates diversity in all its forms.
+				We are committed to minimizing our environmental footprint. We actively promote sustainable
+				practices within our company, such as energy conservation, waste reduction, and responsible
+				resource management. We strive to leverage technology to develop eco-friendly solutions and
+				encourage our employees to adopt environmentally conscious behaviors. Diversity and
+				Inclusion: We embrace diversity and foster an inclusive work environment. We believe that
+				diverse teams bring unique perspectives and enhance creativity and innovation. We promote
+				equal opportunities, respect individual differences, and ensure a workplace that values and
+				celebrates diversity in all its forms.
 			</p>
 		</div>
 
 		<!-- Card 2: Community -->
 		<div
 			use:inView
-			class="reveal relative overflow-hidden  bg-gradient-to-br from-pink-50 to-pink-100 p-8 shadow-xl transition-transform duration-500 hover:scale-105"
+			class="reveal relative overflow-hidden bg-gradient-to-br from-pink-50 to-pink-100 p-8 shadow-xl transition-transform duration-500 hover:scale-105"
 		>
 			<div
 				class="animate-blob absolute -top-10 -left-10 h-44 w-44 rounded-full bg-pink-200/30 blur-3xl"
 			></div>
 			<img src="/images/Community.svg" alt="Community" class="relative z-10 mb-4 h-16 w-16" />
-			<h3 class="relative z-10 text-2xl font-semibold text-gray-900 uppercase">ETHICAL BUSINESS PRACTICES
-</h3>
+			<h3 class="relative z-10 text-2xl font-semibold text-gray-900 uppercase">
+				ETHICAL BUSINESS PRACTICES
+			</h3>
 			<p class="relative z-10 mt-4 leading-relaxed text-gray-600">
-				We adhere to the highest ethical standards in all aspects of our business. We conduct our operations with integrity, honesty, and transparency. We prioritize ethical decision-making and compliance with legal and regulatory requirements. Our commitment to ethical business practices extends to our relationships with clients, partners, suppliers, and the communities we serve. Community Engagement: We actively engage with our local communities and support initiatives that drive positive change. We encourage our employees to volunteer their time and skills to meaningful causes. We contribute to community development by sponsoring events, participating in charitable activities, and supporting nonprofit organizations aligned with our values.
+				We adhere to the highest ethical standards in all aspects of our business. We conduct our
+				operations with integrity, honesty, and transparency. We prioritize ethical decision-making
+				and compliance with legal and regulatory requirements. Our commitment to ethical business
+				practices extends to our relationships with clients, partners, suppliers, and the
+				communities we serve. Community Engagement: We actively engage with our local communities
+				and support initiatives that drive positive change. We encourage our employees to volunteer
+				their time and skills to meaningful causes. We contribute to community development by
+				sponsoring events, participating in charitable activities, and supporting nonprofit
+				organizations aligned with our values.
 			</p>
 		</div>
 
 		<!-- Card 3: Excellence -->
 		<div
 			use:inView
-			class="reveal relative overflow-hidden  bg-gradient-to-br from-green-50 to-green-100 p-8 shadow-xl transition-transform duration-500 hover:scale-105"
+			class="reveal relative overflow-hidden bg-gradient-to-br from-green-50 to-green-100 p-8 shadow-xl transition-transform duration-500 hover:scale-105"
 		>
 			<div
 				class="animate-blob absolute -right-6 -bottom-12 h-48 w-48 rounded-full bg-green-200/30 blur-3xl"
 			></div>
 			<img src="/images/Excellence.svg" alt="Excellence" class="relative z-10 mb-4 h-16 w-16" />
-			<h3 class="relative z-10 text-2xl font-semibold text-gray-900 uppercase">DATA PRIVACY AND SECURITY
-</h3>
+			<h3 class="relative z-10 text-2xl font-semibold text-gray-900 uppercase">
+				DATA PRIVACY AND SECURITY
+			</h3>
 			<p class="relative z-10 mt-4 leading-relaxed text-gray-600">
-				We recognize the importance of protecting data privacy and maintaining robust cybersecurity practices. We prioritize the security of our clients' information and employ stringent measures to safeguard data against unauthorized access or breaches. We adhere to relevant data protection regulations and continuously invest in advanced security technologies and employee training.
+				We recognize the importance of protecting data privacy and maintaining robust cybersecurity
+				practices. We prioritize the security of our clients' information and employ stringent
+				measures to safeguard data against unauthorized access or breaches. We adhere to relevant
+				data protection regulations and continuously invest in advanced security technologies and
+				employee training.
 			</p>
 		</div>
 
 		<!-- Card 4: Sustainability -->
 		<div
 			use:inView
-			class="reveal relative overflow-hidden  bg-gradient-to-br from-blue-50 to-blue-100 p-8 shadow-xl transition-transform duration-500 hover:scale-105"
+			class="reveal relative overflow-hidden bg-gradient-to-br from-blue-50 to-blue-100 p-8 shadow-xl transition-transform duration-500 hover:scale-105"
 		>
 			<div
 				class="animate-blob absolute -top-8 -right-10 h-44 w-44 rounded-full bg-blue-200/30 blur-3xl"
@@ -112,10 +140,15 @@ MAKING A POSITIVE IMPACT		</p>
 				alt="Sustainability"
 				class="relative z-10 mb-4 h-16 w-16"
 			/>
-			<h3 class="relative z-10 text-2xl font-semibold text-gray-900 uppercase">EMPLOYEE WELL BEING
-</h3>
+			<h3 class="relative z-10 text-2xl font-semibold text-gray-900 uppercase">
+				EMPLOYEE WELL BEING
+			</h3>
 			<p class="relative z-10 mt-4 leading-relaxed text-gray-600">
-				We value the well-being and professional growth of our employees. We foster a supportive work environment that promotes work-life balance, health, and personal development. We provide opportunities for skill enhancement, ongoing training, and career advancement. Our goal is to create a workplace where employees feel valued, motivated, and empowered to reach their full potential.
+				We value the well-being and professional growth of our employees. We foster a supportive
+				work environment that promotes work-life balance, health, and personal development. We
+				provide opportunities for skill enhancement, ongoing training, and career advancement. Our
+				goal is to create a workplace where employees feel valued, motivated, and empowered to reach
+				their full potential.
 			</p>
 		</div>
 	</div>

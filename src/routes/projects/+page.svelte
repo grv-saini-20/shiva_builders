@@ -31,7 +31,6 @@
 	}
 </script>
 
-
 <section
 	class="relative flex min-h-[70vh] flex-col items-center justify-center overflow-hidden px-6 py-24"
 >
@@ -39,9 +38,13 @@
 	<div class="absolute inset-0 bg-black/50"></div>
 
 	<div class="relative z-10 max-w-3xl text-center">
-		    <h1 use:inView class="reveal text-4xl sm:text-5xl md:text-6xl font-extrabold text-yellow-500 uppercase leading-snug sm:leading-tight md:leading-tight px-2">
-PROJECTS</h1>
-		<p class="reveal mt-6 text-lg text-gray-200 sm:text-xl uppercase" use:inView>
+		<h1
+			use:inView
+			class="reveal px-2 text-4xl leading-snug font-extrabold text-yellow-500 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
+		>
+			PROJECTS
+		</h1>
+		<p class="reveal mt-6 text-lg text-gray-200 uppercase sm:text-xl" use:inView>
 			Building with trust, delivering with quality – shaping skylines for over 3 decades.
 		</p>
 	</div>

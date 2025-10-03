@@ -64,13 +64,18 @@
 	<div class="absolute inset-0 bg-black/50"></div>
 
 	<div class="relative z-10 max-w-3xl text-center uppercase">
-    <h1 use:inView class="reveal text-4xl sm:text-5xl md:text-6xl font-extrabold text-yellow-500 uppercase leading-snug sm:leading-tight md:leading-tight px-2">
+		<h1
+			use:inView
+			class="reveal px-2 text-4xl leading-snug font-extrabold text-yellow-500 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
+		>
 			Pioneering Futuristic Construction
 		</h1>
-		<p class="reveal mt-6 mb-8 text-lg text-gray-300 sm:text-xl uppercase" use:inView>
-From visionary designs to on-time delivery, Shiva Builders brings innovation and quality to every project.		</p>
+		<p class="reveal mt-6 mb-8 text-lg text-gray-300 uppercase sm:text-xl" use:inView>
+			From visionary designs to on-time delivery, Shiva Builders brings innovation and quality to
+			every project.
+		</p>
 		<div use:inView class="reveal">
-			<Button handleClick={() => goto("/contact")}>Get in Touch</Button>
+			<Button handleClick={() => goto('/contact')}>Get in Touch</Button>
 		</div>
 	</div>
 </section>
@@ -97,35 +102,34 @@ From visionary designs to on-time delivery, Shiva Builders brings innovation and
 		<div class="reveal mx-auto mt-4 h-1 w-20 rounded-full bg-yellow-500" use:inView></div>
 	</div>
 
-	<div class="mt-16 flex flex-wrap justify-center gap-12 md:gap-8 lg:gap-6 ">
-  <div use:inView class="reveal flex-1 min-w-[280px] max-w-sm flex">
-    <ServiceCard 
-      imageUrl="/images/JLPL.webp" 
-      title="Commercial" 
-      description="DWC Infra redefines commercial construction by merging modern design with functionality. Each project reflects our commitment to quality and creativity, setting new industry standards." 
-      class="flex flex-col h-full"
-    />
-  </div>
+	<div class="mt-16 flex flex-wrap justify-center gap-12 md:gap-8 lg:gap-6">
+		<div use:inView class="reveal flex max-w-sm min-w-[280px] flex-1">
+			<ServiceCard
+				imageUrl="/images/JLPL.webp"
+				title="Commercial"
+				description="DWC Infra redefines commercial construction by merging modern design with functionality. Each project reflects our commitment to quality and creativity, setting new industry standards."
+				class="flex h-full flex-col"
+			/>
+		</div>
 
-  <div use:inView class="reveal flex-1 min-w-[280px] max-w-sm flex">
-    <ServiceCard 
-      title="Resedential" 
-      imageUrl="/images/MehakApartments.webp" 
-      description="Our residential projects, whether single-family homes or multi-unit developments, prioritize comfort, aesthetics, and energy efficiency, helping you find the perfect place to call home." 
-      class="flex flex-col h-full"
-    />
-  </div>
+		<div use:inView class="reveal flex max-w-sm min-w-[280px] flex-1">
+			<ServiceCard
+				title="Resedential"
+				imageUrl="/images/MehakApartments.webp"
+				description="Our residential projects, whether single-family homes or multi-unit developments, prioritize comfort, aesthetics, and energy efficiency, helping you find the perfect place to call home."
+				class="flex h-full flex-col"
+			/>
+		</div>
 
-  <div use:inView class="reveal flex-1 min-w-[280px] max-w-sm flex">
-    <ServiceCard 
-      title="Infrastructure" 
-      imageUrl="/images/ALC.webp" 
-      description="DWC Infra transforms traditional construction with innovative designs that prioritize functionality and aesthetics. Our projects enhance community landscapes while ensuring quality and sustainability, effectively addressing the evolving needs of modern businesses." 
-      class="flex flex-col h-full"
-    />
-  </div>
-</div>
-
+		<div use:inView class="reveal flex max-w-sm min-w-[280px] flex-1">
+			<ServiceCard
+				title="Infrastructure"
+				imageUrl="/images/ALC.webp"
+				description="DWC Infra transforms traditional construction with innovative designs that prioritize functionality and aesthetics. Our projects enhance community landscapes while ensuring quality and sustainability, effectively addressing the evolving needs of modern businesses."
+				class="flex h-full flex-col"
+			/>
+		</div>
+	</div>
 </section>
 
 <!-- STATS -->

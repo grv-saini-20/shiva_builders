@@ -37,9 +37,13 @@
 	<div class="absolute inset-0 bg-black/50"></div>
 
 	<div class="relative z-10 max-w-3xl text-center">
-		    <h1 use:inView class="reveal text-4xl sm:text-5xl md:text-6xl font-extrabold text-yellow-500 uppercase leading-snug sm:leading-tight md:leading-tight px-2">
-Ethos</h1>
-		<p class="reveal mt-6 text-lg text-gray-200 sm:text-xl uppercase" use:inView>
+		<h1
+			use:inView
+			class="reveal px-2 text-4xl leading-snug font-extrabold text-yellow-500 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
+		>
+			Ethos
+		</h1>
+		<p class="reveal mt-6 text-lg text-gray-200 uppercase sm:text-xl" use:inView>
 			Driven by principles, powered by people – delivering excellence every step of the way.
 		</p>
 	</div>
@@ -48,7 +52,9 @@ Ethos</h1>
 <!-- CORE PRINCIPLES -->
 <section class="bg-white px-6 py-20">
 	<div class="mb-12 text-center">
-		<h2 use:inView class="reveal text-3xl font-bold text-gray-900 uppercase">Our Core Principles</h2>
+		<h2 use:inView class="reveal text-3xl font-bold text-gray-900 uppercase">
+			Our Core Principles
+		</h2>
 		<div use:inView class="reveal mx-auto mt-3 h-1 w-20 rounded-full bg-yellow-500"></div>
 	</div>
 
@@ -56,7 +62,7 @@ Ethos</h1>
 		<!-- Card 1: Integrity -->
 		<div
 			use:inView
-			class="reveal relative overflow-hidden  bg-gradient-to-br from-yellow-50 to-yellow-100 p-8 shadow-xl transition-transform duration-500 hover:scale-105"
+			class="reveal relative overflow-hidden bg-gradient-to-br from-yellow-50 to-yellow-100 p-8 shadow-xl transition-transform duration-500 hover:scale-105"
 		>
 			<div
 				class="animate-blob absolute -top-12 -right-12 h-48 w-48 rounded-full bg-yellow-200/30 blur-3xl"
@@ -74,7 +80,7 @@ Ethos</h1>
 		<!-- Card 2: Community -->
 		<div
 			use:inView
-			class="reveal relative overflow-hidden  bg-gradient-to-br from-pink-50 to-pink-100 p-8 shadow-xl transition-transform duration-500 hover:scale-105"
+			class="reveal relative overflow-hidden bg-gradient-to-br from-pink-50 to-pink-100 p-8 shadow-xl transition-transform duration-500 hover:scale-105"
 		>
 			<div
 				class="animate-blob absolute -top-10 -left-10 h-44 w-44 rounded-full bg-pink-200/30 blur-3xl"
@@ -93,7 +99,7 @@ Ethos</h1>
 		<!-- Card 3: Excellence -->
 		<div
 			use:inView
-			class="reveal relative overflow-hidden  bg-gradient-to-br from-green-50 to-green-100 p-8 shadow-xl transition-transform duration-500 hover:scale-105"
+			class="reveal relative overflow-hidden bg-gradient-to-br from-green-50 to-green-100 p-8 shadow-xl transition-transform duration-500 hover:scale-105"
 		>
 			<div
 				class="animate-blob absolute -right-6 -bottom-12 h-48 w-48 rounded-full bg-green-200/30 blur-3xl"
@@ -112,7 +118,7 @@ Ethos</h1>
 		<!-- Card 4: Sustainability -->
 		<div
 			use:inView
-			class="reveal relative overflow-hidden  bg-gradient-to-br from-blue-50 to-blue-100 p-8 shadow-xl transition-transform duration-500 hover:scale-105"
+			class="reveal relative overflow-hidden bg-gradient-to-br from-blue-50 to-blue-100 p-8 shadow-xl transition-transform duration-500 hover:scale-105"
 		>
 			<div
 				class="animate-blob absolute -top-8 -right-10 h-44 w-44 rounded-full bg-blue-200/30 blur-3xl"
@@ -135,7 +141,7 @@ Ethos</h1>
 		<!-- Card 5: Collaboration -->
 		<div
 			use:inView
-			class="reveal relative overflow-hidden  bg-gradient-to-br from-purple-50 to-purple-100 p-8 shadow-xl transition-transform duration-500 hover:scale-105"
+			class="reveal relative overflow-hidden bg-gradient-to-br from-purple-50 to-purple-100 p-8 shadow-xl transition-transform duration-500 hover:scale-105"
 		>
 			<div
 				class="animate-blob absolute -bottom-10 -left-8 h-48 w-48 rounded-full bg-purple-200/30 blur-3xl"

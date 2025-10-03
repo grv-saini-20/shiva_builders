@@ -37,10 +37,13 @@
 	<div class="absolute inset-0 bg-black/50"></div>
 
 	<div class="relative z-10 max-w-3xl text-center">
-    <h1 use:inView class="reveal text-4xl sm:text-5xl md:text-6xl font-extrabold text-yellow-500 uppercase leading-snug sm:leading-tight md:leading-tight px-2">
+		<h1
+			use:inView
+			class="reveal px-2 text-4xl leading-snug font-extrabold text-yellow-500 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
+		>
 			Why Choose Us
 		</h1>
-		<p class="reveal mt-6 text-lg text-gray-200 sm:text-xl uppercase" use:inView>
+		<p class="reveal mt-6 text-lg text-gray-200 uppercase sm:text-xl" use:inView>
 			We combine experience, innovation, and quality to deliver unmatched construction solutions.
 		</p>
 	</div>
@@ -53,15 +56,17 @@
   <div class="absolute -bottom-20 -right-20 w-96 h-96 bg-yellow-300/10 rounded-full blur-3xl animate-blob"></div> -->
 
 	<div class="relative z-10 mb-16 text-start">
-		<h2 class="text-4xl text-center font-bold text-gray-900 uppercase reveal" use:inView>Why Choose Us</h2>
-		<div class="mx-auto mt-4 h-1 w-24 rounded-full bg-yellow-500 reveal" use:inView></div>
+		<h2 class="reveal text-center text-4xl font-bold text-gray-900 uppercase" use:inView>
+			Why Choose Us
+		</h2>
+		<div class="reveal mx-auto mt-4 h-1 w-24 rounded-full bg-yellow-500" use:inView></div>
 	</div>
 
 	<div class="relative z-10 mx-auto grid max-w-7xl gap-12 md:grid-cols-2 lg:grid-cols-3">
 		<!-- Card 1 -->
 		<div
 			use:inView
-			class="reveal relative transform overflow-hidden  bg-gradient-to-br from-yellow-50 to-yellow-100 p-10 shadow-xl transition-all duration-500 hover:scale-105"
+			class="reveal relative transform overflow-hidden bg-gradient-to-br from-yellow-50 to-yellow-100 p-10 shadow-xl transition-all duration-500 hover:scale-105"
 		>
 			<div
 				class="animate-blob absolute -top-12 -right-12 h-48 w-48 rounded-full bg-yellow-200/30 blur-3xl"
@@ -87,7 +92,7 @@
 		<!-- Card 2 -->
 		<div
 			use:inView
-			class="reveal relative transform overflow-hidden  bg-gradient-to-br from-pink-50 to-pink-100 p-10 shadow-xl transition-all duration-500 hover:scale-105"
+			class="reveal relative transform overflow-hidden bg-gradient-to-br from-pink-50 to-pink-100 p-10 shadow-xl transition-all duration-500 hover:scale-105"
 		>
 			<div
 				class="animate-blob absolute -top-10 -left-10 h-44 w-44 rounded-full bg-pink-200/30 blur-3xl"
@@ -113,7 +118,7 @@
 		<!-- Card 3 -->
 		<div
 			use:inView
-			class="reveal relative transform overflow-hidden  bg-gradient-to-br from-green-50 to-green-100 p-10 shadow-xl transition-all duration-500 hover:scale-105"
+			class="reveal relative transform overflow-hidden bg-gradient-to-br from-green-50 to-green-100 p-10 shadow-xl transition-all duration-500 hover:scale-105"
 		>
 			<div
 				class="animate-blob absolute -right-6 -bottom-12 h-48 w-48 rounded-full bg-green-200/30 blur-3xl"
@@ -135,7 +140,7 @@
 		<!-- Card 4 -->
 		<div
 			use:inView
-			class="reveal relative transform overflow-hidden  bg-gradient-to-br from-blue-50 to-blue-100 p-10 shadow-xl transition-all duration-500 hover:scale-105"
+			class="reveal relative transform overflow-hidden bg-gradient-to-br from-blue-50 to-blue-100 p-10 shadow-xl transition-all duration-500 hover:scale-105"
 		>
 			<div
 				class="animate-blob absolute -bottom-10 -left-8 h-48 w-48 rounded-full bg-blue-200/30 blur-3xl"
@@ -157,7 +162,7 @@
 		<!-- Card 5 -->
 		<div
 			use:inView
-			class="reveal relative transform overflow-hidden  bg-gradient-to-br from-purple-50 to-purple-100 p-10 shadow-xl transition-all duration-500 hover:scale-105"
+			class="reveal relative transform overflow-hidden bg-gradient-to-br from-purple-50 to-purple-100 p-10 shadow-xl transition-all duration-500 hover:scale-105"
 		>
 			<div
 				class="animate-blob absolute top-0 right-0 h-32 w-32 -translate-x-1/2 -translate-y-1/2 rounded-full bg-purple-200/30 blur-3xl"
@@ -179,7 +184,7 @@
 		<!-- Card 6 -->
 		<div
 			use:inView
-			class="reveal relative transform overflow-hidden  bg-gradient-to-br from-yellow-50 to-yellow-100 p-10 shadow-xl transition-all duration-500 hover:scale-105"
+			class="reveal relative transform overflow-hidden bg-gradient-to-br from-yellow-50 to-yellow-100 p-10 shadow-xl transition-all duration-500 hover:scale-105"
 		>
 			<div
 				class="animate-blob absolute bottom-0 left-1/2 h-44 w-44 translate-x-1/2 translate-y-1/2 rounded-full bg-yellow-300/30 blur-3xl"

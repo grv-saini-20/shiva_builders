@@ -39,9 +39,7 @@
 				</h4>
 				<ul class="grid grid-cols-2 space-y-2 text-sm text-gray-400">
 					<li>
-						<a href="/about" class="transition-colors hover:text-yellow-500"
-							>About</a
-						>
+						<a href="/about" class="transition-colors hover:text-yellow-500">About</a>
 					</li>
 					<li><a href="/services" class="transition-colors hover:text-yellow-500">Services</a></li>
 					<li>
@@ -51,7 +49,9 @@
 						<a href="/projects" class="transition-colors hover:text-yellow-500">Projects</a>
 					</li>
 					<li>
-						<a href="/infrastructure" class="transition-colors hover:text-yellow-500">Infrastructure</a>
+						<a href="/infrastructure" class="transition-colors hover:text-yellow-500"
+							>Infrastructure</a
+						>
 					</li>
 					<li>
 						<a href="/careers" class="transition-colors hover:text-yellow-500">Careers</a>
@@ -106,15 +106,22 @@
 		</div>
 
 		<!-- Bottom Section: Copyright Bar -->
-		 <div class="pt-8 flex flex-col items-center justify-between space-y-4 md:flex-row md:space-y-0">
-			 <div class="text-center text-sm text-gray-400 md:text-left">
-				 © {new Date().getFullYear()} ShivaBuilders. All rights reserved.
-				</div>
-				<div class="flex space-x-6">
-					<a href="/privacy-policy" class="text-sm text-gray-400 hover:text-yellow-500 transition-colors">Privacy Policy</a>
-					<a href="/terms" class="text-sm text-gray-400 hover:text-yellow-500 transition-colors">Terms of Service</a>
-					<a href="/legal" class="text-sm text-gray-400 hover:text-yellow-500 transition-colors">Legal</a>
-				</div>
+		<div class="flex flex-col items-center justify-between space-y-4 pt-8 md:flex-row md:space-y-0">
+			<div class="text-center text-sm text-gray-400 md:text-left">
+				© {new Date().getFullYear()} ShivaBuilders. All rights reserved.
+			</div>
+			<div class="flex space-x-6">
+				<a
+					href="/privacy-policy"
+					class="text-sm text-gray-400 transition-colors hover:text-yellow-500">Privacy Policy</a
+				>
+				<a href="/terms" class="text-sm text-gray-400 transition-colors hover:text-yellow-500"
+					>Terms of Service</a
+				>
+				<a href="/legal" class="text-sm text-gray-400 transition-colors hover:text-yellow-500"
+					>Legal</a
+				>
 			</div>
 		</div>
+	</div>
 </footer>

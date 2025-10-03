@@ -25,7 +25,7 @@
 			subOptions: [
 				{ name: 'Infrastructure Development', href: '/services' },
 				{ name: 'Design and Build', href: '/services' },
-				{ name: 'Joint Venture Model', href: '/services' },
+				{ name: 'Joint Venture Model', href: '/services' }
 			]
 		},
 		{
@@ -38,20 +38,20 @@
 				{ name: 'Education', href: '/industries#Education Sector' },
 				{ name: 'Healthcare', href: '/industries#Healthcare' },
 				{ name: 'Retail Spaces', href: '/industries#Retail Spaces' },
-				{ name: 'IT Sector', href: '/industries#IT Sector' },
+				{ name: 'IT Sector', href: '/industries#IT Sector' }
 			]
 		},
 		{
 			name: 'Projects',
-			href: '/projects',
+			href: '/projects'
 		},
 		{
 			name: 'Infrastructure',
-			href: '/infrastructure',
+			href: '/infrastructure'
 		},
 		{
 			name: 'Careers',
-			href: '/careers',
+			href: '/careers'
 		},
 		{ name: 'Contact', href: '/contact', subOptions: null }
 	];
@@ -95,13 +95,13 @@
 			</div>
 
 			<!-- Desktop Menu -->
-			<div class="hidden md:flex space-x-8 items-center">
+			<div class="hidden items-center space-x-8 md:flex">
 				{#each menuItems as item}
-					<div class="relative group">
+					<div class="group relative">
 						<!-- Parent link is clickable -->
 						<a
 							href={item.href}
-							class="flex items-center text-gray-900 font-medium hover:text-yellow-500 transition-colors duration-300"
+							class="flex items-center font-medium text-gray-900 transition-colors duration-300 hover:text-yellow-500"
 						>
 							{item.name}
 							{#if item.subOptions}
@@ -111,7 +111,12 @@
 									stroke="currentColor"
 									viewBox="0 0 24 24"
 								>
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M19 9l-7 7-7-7"
+									></path>
 								</svg>
 							{/if}
 						</a>
@@ -119,12 +124,12 @@
 						{#if item.subOptions}
 							<!-- submenu shows on hover and stays while hovering submenu -->
 							<div
-								class="absolute left-0 mt-2 w-56  bg-white shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50"
+								class="invisible absolute left-0 z-50 mt-2 w-56 bg-white opacity-0 shadow-lg transition-all duration-200 group-hover:visible group-hover:opacity-100"
 							>
 								{#each item.subOptions as subItem}
 									<a
 										href={subItem.href}
-										class="block px-4 py-3 text-gray-900 hover:bg-yellow-50 hover:text-yellow-500 transition-colors font-medium"
+										class="block px-4 py-3 font-medium text-gray-900 transition-colors hover:bg-yellow-50 hover:text-yellow-500"
 									>
 										{subItem.name}
 									</a>
@@ -136,15 +141,38 @@
 			</div>
 
 			<!-- Mobile Hamburger -->
-			<div class="md:hidden flex items-center">
-				<button onclick={() => (isOpen = !isOpen)} class="focus:outline-none p-2 rounded-md hover:bg-gray-100">
+			<div class="flex items-center md:hidden">
+				<button
+					onclick={() => (isOpen = !isOpen)}
+					class="rounded-md p-2 hover:bg-gray-100 focus:outline-none"
+				>
 					{#if isOpen}
-						<svg class="h-6 w-6 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+						<svg
+							class="h-6 w-6 text-gray-900"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M6 18L18 6M6 6l12 12"
+							/>
 						</svg>
 					{:else}
-						<svg class="h-6 w-6 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+						<svg
+							class="h-6 w-6 text-gray-900"
+							fill="none"
+							stroke="currentColor"
+							viewBox="0 0 24 24"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M4 6h16M4 12h16M4 18h16"
+							/>
 						</svg>
 					{/if}
 				</button>
@@ -154,7 +182,10 @@
 
 	<!-- Mobile Menu -->
 	{#if isOpen}
-		<div class="md:hidden bg-white shadow-md z-40" transition:fly={{ y: -10, duration: 200, easing: cubicOut }}>
+		<div
+			class="z-40 bg-white shadow-md md:hidden"
+			transition:fly={{ y: -10, duration: 200, easing: cubicOut }}
+		>
 			<div class="space-y-1 px-2 pt-2 pb-3">
 				{#each menuItems as item}
 					<div>
@@ -163,15 +194,18 @@
 							<div class="flex items-center justify-between">
 								<button
 									onclick={() => handleMobileTopClick(item)}
-									class="flex-1 text-left px-3 py-2 text-gray-900 font-medium hover:bg-yellow-50 hover:text-yellow-600 rounded-md"
+									class="flex-1 rounded-md px-3 py-2 text-left font-medium text-gray-900 hover:bg-yellow-50 hover:text-yellow-600"
 								>
 									{item.name}
 								</button>
 
 								<button
-									onclick={(e) => {e.stopPropagation();toggleSubmenu(item.name)}}
+									onclick={(e) => {
+										e.stopPropagation();
+										toggleSubmenu(item.name);
+									}}
 									aria-expanded={activeSubmenu === item.name}
-									class="p-2 rounded-md hover:bg-gray-100"
+									class="rounded-md p-2 hover:bg-gray-100"
 									aria-label="Toggle submenu"
 								>
 									<svg
@@ -181,7 +215,12 @@
 										stroke="currentColor"
 										viewBox="0 0 24 24"
 									>
-										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M19 9l-7 7-7-7"
+										></path>
 									</svg>
 								</button>
 							</div>
@@ -191,8 +230,11 @@
 									{#each item.subOptions as subItem}
 										<a
 											href={subItem.href}
-											onclick={() => { closeAll(); goto(subItem.href); }}
-											class="block px-3 py-2 text-gray-900 hover:bg-yellow-50 hover:text-yellow-600 transition-colors font-medium rounded-md"
+											onclick={() => {
+												closeAll();
+												goto(subItem.href);
+											}}
+											class="block rounded-md px-3 py-2 font-medium text-gray-900 transition-colors hover:bg-yellow-50 hover:text-yellow-600"
 										>
 											{subItem.name}
 										</a>
@@ -202,8 +244,11 @@
 						{:else}
 							<a
 								href={item.href}
-								onclick={() => { closeAll(); goto(item.href); }}
-								class="block px-3 py-2 text-gray-900 hover:bg-yellow-50 hover:text-yellow-600 transition-colors font-medium rounded-md"
+								onclick={() => {
+									closeAll();
+									goto(item.href);
+								}}
+								class="block rounded-md px-3 py-2 font-medium text-gray-900 transition-colors hover:bg-yellow-50 hover:text-yellow-600"
 							>
 								{item.name}
 							</a>
@@ -217,5 +262,7 @@
 
 <style>
 	/* small helper so rotated class works nicely */
-	.rotate-180 { transform: rotate(180deg); }
+	.rotate-180 {
+		transform: rotate(180deg);
+	}
 </style>

@@ -63,9 +63,13 @@
 	<div class="absolute inset-0 bg-black/50"></div>
 
 	<div class="relative z-10 max-w-3xl text-center">
-		    <h1 use:inView class="reveal text-4xl sm:text-5xl md:text-6xl font-extrabold text-yellow-500 uppercase leading-snug sm:leading-tight md:leading-tight px-2">
-ABOUT US</h1>
-		<p class="reveal mt-6 text-lg text-gray-200 sm:text-xl uppercase" use:inView>
+		<h1
+			use:inView
+			class="reveal px-2 text-4xl leading-snug font-extrabold text-yellow-500 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
+		>
+			ABOUT US
+		</h1>
+		<p class="reveal mt-6 text-lg text-gray-200 uppercase sm:text-xl" use:inView>
 			Building with trust, delivering with quality – shaping skylines for over 3 decades.
 		</p>
 	</div>
@@ -110,7 +114,7 @@ ABOUT US</h1>
 
 	<div class="mx-auto grid h-auto max-w-6xl items-start gap-12 md:grid-cols-2">
 		<!-- Mission -->
-		<div use:inView class="reveal h-full  bg-white p-8 shadow-lg">
+		<div use:inView class="reveal h-full bg-white p-8 shadow-lg">
 			<h3 class="text-2xl font-semibold text-gray-900 uppercase">Our Mission</h3>
 			<p class="mt-4 leading-relaxed text-gray-600">
 				Empowering dreams through precision and passion, Shiva Builders is committed to constructing
@@ -120,7 +124,7 @@ ABOUT US</h1>
 		</div>
 
 		<!-- Vision -->
-		<div use:inView class="reveal h-full  bg-white p-8 shadow-lg">
+		<div use:inView class="reveal h-full bg-white p-8 shadow-lg">
 			<h3 class="text-2xl font-semibold text-gray-900 uppercase">Our Vision</h3>
 			<p class="mt-4 leading-relaxed text-gray-600">
 				Embarking on a journey of transformative construction, Shiva Builders envisions a future
