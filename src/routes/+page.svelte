@@ -84,13 +84,13 @@
 <section class="bg-gray-300 px-6 py-20">
 	<div class="flex flex-wrap items-center justify-center gap-12">
 		<div use:inView class="reveal">
-			<FeatureCard title="Health & Safety First" iconSrc="/images/Health.svg" />
+			<FeatureCard title="Health & Safety First" description="We prioritize safety at every stage of our projects, ensuring secure worksites, compliance with all standards, and the well-being of our team and clients." iconSrc="/images/Health.svg" />
 		</div>
 		<div use:inView class="reveal">
-			<FeatureCard title="Experienced Experts" iconSrc="images/Expert.svg" />
+			<FeatureCard title="Experienced Experts" description="Our skilled professionals bring years of industry experience, delivering quality workmanship and innovative solutions for every project." iconSrc="images/Expert.svg" />
 		</div>
 		<div use:inView class="reveal">
-			<FeatureCard title="We're Innovative" iconSrc="images/Bulb.svg" />
+			<FeatureCard title="We're Innovative" description="We embrace modern technologies and creative approaches to deliver smart, efficient, and future-ready construction solutions." iconSrc="images/Bulb.svg" />
 		</div>
 	</div>
 </section>
