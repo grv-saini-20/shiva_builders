@@ -34,14 +34,14 @@
 		<img
 			src={imageUrl}
 			alt={title}
-			class="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-[1.05]"
+			class="h-full w-full object-cover grayscale group-hover:grayscale-0  transition duration-500 ease-in-out group-hover:scale-[1.05]"
 			loading="lazy"
 		/>
 
 		<!-- Dark Overlay on Hover -->
-		<div
-			class="absolute inset-0 bg-black-900/0 transition-all duration-300 group-hover:bg-black-900/40"
-		></div>
+		<!-- <div
+			class="absolute inset-0 bg-black-900/0 transition-all duration-300 group-hover:bg-black-900/0"
+		></div> -->
 
 		<!-- Action Icon (Circular Button) -->
 		<div

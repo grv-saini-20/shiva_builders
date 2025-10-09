@@ -82,7 +82,7 @@
 			<img
 				src="/images/JLPL.webp"
 				alt="About Company"
-				class="aspect-square w-full max-w-lg object-cover shadow-lg"
+				class="aspect-square grayscale hover:grayscale-0 transition-colors ease-in-out duration-500 w-full max-w-lg object-cover shadow-lg"
 			/>
 		</div>
 		<div class="">

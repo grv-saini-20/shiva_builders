@@ -28,7 +28,7 @@
 		<img
 			src={imageUrl}
 			alt={`Image for ${title}`}
-			class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.05]"
+			class="h-full w-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-[1.05]"
 		/>
 
 		<!-- Aesthetic Overlay (Optional: slightly darkens image for text contrast if used) -->

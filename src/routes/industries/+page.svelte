@@ -102,7 +102,7 @@
 					<img
 						src={industry.image}
 						alt={industry.title}
-						class="aspect-video h-64 w-full transform object-cover transition-transform duration-700 group-hover:scale-105 md:h-full"
+						class="aspect-video grayscale group-hover:grayscale-0 h-64 w-full transform object-cover transition-all duration-500 group-hover:scale-105 md:h-full"
 					/>
 				</div>
 
