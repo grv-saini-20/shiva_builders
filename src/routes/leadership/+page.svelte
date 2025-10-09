@@ -62,7 +62,7 @@
 		class="relative mb-24 flex flex-col items-center text-center md:flex-row md:justify-between md:text-left"
 	>
 		<div class="md:w-1/2 md:pr-12">
-			<h2 use:inView class="reveal text-2xl font-bold text-gray-900">MR. DEEPAK WADHAWAN</h2>
+			<h2 use:inView class="reveal text-2xl font-bold text-gray-900">Mr. Deepak Wadhawan</h2>
 			<p use:inView class="reveal mb-4 font-semibold text-yellow-500">DIRECTOR</p>
 			<p use:inView class="reveal mb-2 leading-relaxed text-gray-600">
 				Mr. Deepak Wadhawan is the visionary leader of Shiva Builders having experience of more than
@@ -90,7 +90,7 @@
 		class="relative flex flex-col items-center text-center md:flex-row-reverse md:justify-between md:text-left my-24"
 	>
 		<div class="md:w-1/2 md:pl-12">
-			<h2 use:inView class="reveal text-2xl font-bold text-gray-900">MR. MUKUL WADHAWAN</h2>
+			<h2 use:inView class="reveal text-2xl font-bold text-gray-900">Mr. Mukul Wadhawan</h2>
 			<p use:inView class="reveal mb-4 font-semibold text-yellow-500">DIRECTOR</p>
 			<p use:inView class="reveal mb-2 leading-relaxed text-gray-600">
 				Mr. Mukul Wadhawan, our dynamic Leader, propels building company's strategic growth. With
@@ -120,7 +120,7 @@
 		class="relative flex flex-col items-center text-center md:flex-row md:justify-between md:text-left"
 	>
 		<div class="md:w-1/2 md:pr-12">
-			<h2 use:inView class="reveal text-2xl font-bold text-gray-900">MR. SHREY Wadhawan</h2>
+			<h2 use:inView class="reveal text-2xl font-bold text-gray-900">Mr. Shrey Wadhawan</h2>
 			<p use:inView class="reveal mb-4 font-semibold text-yellow-500">EXECUTIVE DIRECTOR</p>
 			<p use:inView class="reveal mb-2 leading-relaxed text-gray-600">
 				At just 23 years old, Shrey Wadhawan is already making rapid growth in the construction
