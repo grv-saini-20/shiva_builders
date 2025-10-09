@@ -9,7 +9,7 @@
 
 <!-- Main Footer Container -->
 <footer class="bg-gray-800 font-inter text-white">
-	<div class="mx-auto max-w-7xl px-4 py-16 md:py-20">
+	<div class="mx-auto  px-4 sm:px-6 lg:px-8 py-16 md:py-20">
 		<!-- Top Section: Logo, Services, Contact -->
 		<div class="grid grid-cols-1 gap-12 border-b border-gray-700 pb-12 md:grid-cols-3">
 			<!-- Column 1: Logo and Brand Info -->

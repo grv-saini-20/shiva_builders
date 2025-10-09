@@ -87,12 +87,12 @@
 </script>
 
 <nav class="fixed top-0 z-50 w-full bg-white shadow-md">
-	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+	<div class="mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="flex h-16 items-center justify-between">
 			<!-- Logo -->
 			<div class="flex items-center">
 				<a href="/" class="text-xl font-bold text-gray-900">
-    <img src="/images/SBLOGO.jpg" alt="logo" class="h-10 w-auto" />
+    <img src="/images/SBLOGO.jpg" alt="logo" class="h-9 w-auto" />
 				</a>
 			</div>
 
