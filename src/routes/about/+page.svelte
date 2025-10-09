@@ -60,12 +60,12 @@
 	class="relative flex min-h-[70vh] flex-col items-center justify-center overflow-hidden px-6 py-24"
 >
 	<div class="absolute inset-0 bg-[url(/images/DWC1.jpg)] bg-cover bg-center lg:bg-fixed"></div>
-	<div class="absolute inset-0 bg-black/50"></div>
+	<div class="absolute inset-0 bg-black/75"></div>
 
 	<div class="relative z-10 max-w-3xl text-center">
 		<h1
 			use:inView
-			class="reveal px-2 text-4xl leading-snug font-extrabold text-yellow-500 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
+			class="reveal px-2 text-4xl leading-snug font-extrabold text-brand-400 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
 		>
 			ABOUT US
 		</h1>
@@ -87,7 +87,7 @@
 		</div>
 		<div class="">
 			<h2 use:inView class="reveal text-3xl font-bold text-gray-900 uppercase">Who We Are</h2>
-			<div use:inView class="reveal mt-4 h-1 w-20 rounded-full bg-yellow-500"></div>
+			<div use:inView class="reveal mt-4 h-1 w-20 rounded-full bg-brand-500"></div>
 			<p use:inView class="reveal mt-6 leading-relaxed text-gray-600">
 				At Shiva Builders, we build more than structures - we craft legacies with a focus on
 				innovation, reliability, and client satisfaction. Our dedicated team transforms your vision
@@ -109,7 +109,7 @@
 <section class="bg-gray-100 px-6 py-20">
 	<div class="mb-12 text-center">
 		<h2 class="text-3xl font-bold text-gray-900 uppercase">Mission & Vision</h2>
-		<div class="mx-auto mt-3 h-1 w-20 rounded-full bg-yellow-500"></div>
+		<div class="mx-auto mt-3 h-1 w-20 rounded-full bg-brand-500"></div>
 	</div>
 
 	<div class="mx-auto grid h-auto max-w-6xl items-start gap-12 md:grid-cols-2">
@@ -153,7 +153,7 @@
 			}}
 			class="reveal"
 		>
-			<h2 class="text-4xl font-bold text-yellow-300">{projects}</h2>
+			<h2 class="text-4xl font-bold text-brand-300">{projects}</h2>
 			<p class="mt-3 text-gray-300 uppercase">Completed Projects</p>
 		</div>
 		<div
@@ -167,7 +167,7 @@
 			}}
 			class="reveal"
 		>
-			<h2 class="text-4xl font-bold text-yellow-300">{sqft}</h2>
+			<h2 class="text-4xl font-bold text-brand-300">{sqft}</h2>
 			<p class="mt-3 text-gray-300 uppercase">Million SQ.FTS.<br />Completed Development</p>
 		</div>
 		<div
@@ -181,7 +181,7 @@
 			}}
 			class="reveal"
 		>
-			<h2 class="text-4xl font-bold text-yellow-300">{ongoing}</h2>
+			<h2 class="text-4xl font-bold text-brand-300">{ongoing}</h2>
 			<p class="mt-3 text-gray-300 uppercase">Ongoing Projects</p>
 		</div>
 		<div
@@ -195,7 +195,7 @@
 			}}
 			class="reveal"
 		>
-			<h2 class="text-4xl font-bold text-yellow-300">{personnel}</h2>
+			<h2 class="text-4xl font-bold text-brand-300">{personnel}</h2>
 			<p class="mt-3 text-gray-300 uppercase">Personnel Strength</p>
 		</div>
 		<div
@@ -209,7 +209,7 @@
 			}}
 			class="reveal"
 		>
-			<h2 class="text-4xl font-bold text-yellow-300">{experience}</h2>
+			<h2 class="text-4xl font-bold text-brand-300">{experience}</h2>
 			<p class="mt-3 text-gray-300 uppercase">Total Experience</p>
 		</div>
 	</div>
@@ -218,10 +218,10 @@
 <!-- CTA with Parallax -->
 <section class="relative flex items-center justify-center overflow-hidden px-6 py-24">
 	<div class="absolute inset-0 bg-[url(/images/DWC1.jpg)] bg-cover bg-center lg:bg-fixed"></div>
-	<div class="absolute inset-0 bg-black/60"></div>
+	<div class="absolute inset-0 bg-black/75"></div>
 
 	<div class="relative z-10 max-w-2xl text-center">
-		<h2 class="text-4xl font-bold text-yellow-400 uppercase">Let’s Build the Future Together</h2>
+		<h2 class="text-4xl font-bold text-brand-400 uppercase">Let’s Build the Future Together</h2>
 		<p class="mt-6 text-lg text-gray-200 uppercase">
 			Partner with us to turn your vision into reality with precision and quality.
 		</p>

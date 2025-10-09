@@ -72,12 +72,12 @@
 	class="relative flex min-h-[70vh] flex-col items-center justify-center overflow-hidden px-6 py-20"
 >
 	<div class="absolute inset-0 bg-[url(/images/DWC1.jpg)] bg-cover bg-center lg:bg-fixed"></div>
-	<div class="absolute inset-0 bg-black/50"></div>
+	<div class="absolute inset-0 bg-black/75"></div>
 
 	<div class="relative z-10 max-w-3xl text-center">
 		<h1
 			use:inView
-			class="reveal px-2 text-4xl leading-snug font-extrabold text-yellow-500 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
+			class="reveal px-2 text-4xl leading-snug font-extrabold text-brand-400 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
 		>
 			Industries
 		</h1>
@@ -109,7 +109,7 @@
 				<!-- TEXT -->
 				<div class="flex flex-col justify-center p-8 md:w-1/2">
 					<h3
-						class="mb-4 border-l-4 border-yellow-500 pl-3 text-2xl font-bold text-gray-900 uppercase"
+						class="mb-4 border-l-4 border-brand-500 pl-3 text-2xl font-bold text-gray-900 uppercase"
 					>
 						{industry.title}
 					</h3>

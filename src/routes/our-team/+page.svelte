@@ -34,7 +34,7 @@
 		<h2 class="reveal text-center text-4xl font-bold text-gray-900 uppercase" use:inView>
 			Our team
 		</h2>
-		<div class="reveal mx-auto mt-4 mb-16 h-1 w-24 rounded-full bg-yellow-500" use:inView></div>
+		<div class="reveal mx-auto mt-4 mb-16 h-1 w-24 rounded-full bg-brand-500" use:inView></div>
 
 		<p class="reveal mb-6 text-lg leading-relaxed text-gray-900 md:text-xl" use:inView>
 			Shiva Builders holds pride in talking about its team of

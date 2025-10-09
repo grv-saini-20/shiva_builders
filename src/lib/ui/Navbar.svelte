@@ -92,7 +92,7 @@
 			<!-- Logo -->
 			<div class="flex items-center">
 				<a href="/" class="text-xl font-bold text-gray-900">
-    <img src="/images/SBLOGO.jpg" alt="logo" class="h-9 w-auto" />
+    <img src="/images/SBLOGO.jpg" alt="logo" class="h-8 w-auto" />
 				</a>
 			</div>
 
@@ -103,7 +103,7 @@
 						<!-- Parent link is clickable -->
 						<a
 							href={item.href}
-							class="flex items-center font-medium text-gray-900 transition-colors duration-300 hover:text-yellow-500"
+							class="flex items-center font-medium text-gray-900 transition-colors duration-300 hover:text-brand-500"
 						>
 							{item.name}
 							{#if item.subOptions}
@@ -131,7 +131,7 @@
 								{#each item.subOptions as subItem}
 									<a
 										href={subItem.href}
-										class="block px-4 py-3 font-medium text-gray-900 transition-colors hover:bg-yellow-50 hover:text-yellow-500"
+										class="block px-4 py-3 font-medium text-gray-900 transition-colors hover:bg-yellow-50 hover:text-brand-500"
 									>
 										{subItem.name}
 									</a>
@@ -150,7 +150,7 @@
 				>
 					{#if isOpen}
 						<svg
-							class="h-6 w-6 text-gray-900"
+							class="h-6 w-6 text-brand-500"
 							fill="none"
 							stroke="currentColor"
 							viewBox="0 0 24 24"
@@ -164,7 +164,7 @@
 						</svg>
 					{:else}
 						<svg
-							class="h-6 w-6 text-gray-900"
+							class="h-6 w-6 text-brand-500"
 							fill="none"
 							stroke="currentColor"
 							viewBox="0 0 24 24"
@@ -196,7 +196,7 @@
 							<div class="flex items-center justify-between">
 								<button
 									onclick={() => handleMobileTopClick(item)}
-									class="flex-1 rounded-md px-3 py-2 text-left font-medium text-gray-900 hover:bg-yellow-50 hover:text-yellow-600"
+									class="flex-1 rounded-md px-3 py-2 text-left font-medium text-gray-900 hover:bg-brand-50 hover:text-brand-500"
 								>
 									{item.name}
 								</button>
@@ -211,7 +211,7 @@
 									aria-label="Toggle submenu"
 								>
 									<svg
-										class="h-4 w-4 text-gray-700 transition-transform"
+										class="h-4 w-4 text-brand-500 transition-transform"
 										class:rotate-180={activeSubmenu === item.name}
 										fill="none"
 										stroke="currentColor"
@@ -236,7 +236,7 @@
 												closeAll();
 												goto(subItem.href);
 											}}
-											class="block rounded-md px-3 py-2 font-medium text-gray-900 transition-colors hover:bg-yellow-50 hover:text-yellow-600"
+											class="block rounded-md px-3 py-2 font-medium text-gray-900 transition-colors hover:bg-brand-50 hover:text-brand-500"
 										>
 											{subItem.name}
 										</a>
@@ -250,7 +250,7 @@
 									closeAll();
 									goto(item.href);
 								}}
-								class="block rounded-md px-3 py-2 font-medium text-gray-900 transition-colors hover:bg-yellow-50 hover:text-yellow-600"
+								class="block rounded-md px-3 py-2 font-medium text-gray-900 transition-colors hover:bg-brand-50 hover:text-brand-600"
 							>
 								{item.name}
 							</a>

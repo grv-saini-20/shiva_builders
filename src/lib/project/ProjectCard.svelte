@@ -25,6 +25,7 @@
     bg-black-700 shadow-sm transition-all
     duration-300
     ease-in-out hover:scale-[1.02]
+	hover:bg-white
     hover:shadow-lg hover:shadow-gray-900/50
   "
 >
@@ -54,8 +55,8 @@
       rounded-full bg-white text-black-900
       transition-all duration-300 ease-in-out
       group-hover:scale-110
-      group-hover:bg-yellow-500
-      group-hover:text-black-900
+      group-hover:bg-brand-500
+      group-hover:text-white
     "
 		>
 			<HugeiconsIcon
@@ -69,7 +70,7 @@
 
 	<!-- Text Content -->
 	<div class="p-6">
-		<h4 class="font-semibold text-white transition-colors duration-300 group-hover:text-yellow-500">
+		<h4 class="font-semibold text-white transition-colors duration-300 group-hover:text-brand-500">
 			{title}
 		</h4>
 	</div>

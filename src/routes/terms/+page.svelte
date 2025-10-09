@@ -7,7 +7,7 @@
 
 <div class="mx-auto max-w-4xl px-6 py-16 leading-relaxed text-gray-800">
 	<h1
-		class="mb-8 inline-block border-b-4 border-yellow-500 pb-2 text-3xl font-bold text-gray-900 md:text-4xl"
+		class="mb-8 inline-block border-b-4 border-brand-500 pb-2 text-3xl font-bold text-gray-900 md:text-4xl"
 	>
 		Terms and Conditions
 	</h1>

@@ -220,7 +220,7 @@
 	<div class="relative z-10 max-w-3xl text-center">
 		<h1
 			use:inView
-			class="reveal px-2 text-4xl leading-snug font-extrabold text-yellow-500 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
+			class="reveal px-2 text-4xl leading-snug font-extrabold text-brand-400 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
 		>
 			Careers
 		</h1>
@@ -231,7 +231,7 @@
 		</p>
 		<p class="mt-6 text-lg text-gray-100 uppercase">
 			Send your applications at:
-			<span class="font-bold text-yellow-400">careers@shivabuilders.com</span>
+			<span class="font-bold text-brand-400">careers@shivabuilders.com</span>
 		</p>
 	</div>
 </section>
@@ -241,12 +241,12 @@
 	<h2 class="reveal text-center text-3xl font-bold text-black-900 uppercase" use:inView>
 		Our Team
 	</h2>
-	<div class="reveal mx-auto mt-3 mb-12 h-1 w-20 rounded-full bg-yellow-500" use:inView></div>
+	<div class="reveal mx-auto mt-3 mb-12 h-1 w-20 rounded-full bg-brand-500" use:inView></div>
 
 	<div class="grid gap-10 md:grid-cols-2">
 		{#each positions as pos}
 			<div
-				class="reveal border-t-4 border-yellow-500 bg-white p-8 shadow-lg transition-all hover:shadow-2xl"
+				class="reveal border-t-4 border-brand-500 bg-white p-8 shadow-lg transition-all hover:shadow-2xl"
 				use:inView
 			>
 				<h3 class="mb-2 text-2xl font-bold text-gray-800">{pos.title}</h3>

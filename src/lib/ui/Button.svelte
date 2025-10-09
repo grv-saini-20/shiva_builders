@@ -32,8 +32,8 @@
 
 	// Classes for the Primary (Solid Yellow) variant: "GET IN TOUCH"
 	const primaryClasses = `
-    bg-yellow-500 text-black-900 
-    hover:bg-yellow-300
+    bg-brand-500 text-white 
+    hover:bg-brand-400
     active:scale-[0.98]
   `;
 

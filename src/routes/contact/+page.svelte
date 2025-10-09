@@ -66,7 +66,7 @@ ${name}`;
 	<div class="relative z-10 max-w-3xl text-center">
 		<h1
 			use:inView
-			class="reveal px-2 text-4xl leading-snug font-extrabold text-yellow-500 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
+			class="reveal px-2 text-4xl leading-snug font-extrabold text-brand-400 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
 		>
 			Contact Us
 		</h1>
@@ -79,10 +79,10 @@ ${name}`;
 		<!-- Location -->
 		<div
 			use:inView
-			class="reveal flex flex-col items-center rounded-xl p-6 text-gray-900 shadow-lg transition hover:bg-yellow-500 hover:text-black"
+			class="reveal group flex flex-col items-center rounded-xl p-6 shadow-lg transition hover:bg-brand-500 hover:text-white"
 		>
 			<HugeiconsIcon icon={Location01FreeIcons} size={32} color="currentColor" strokeWidth={1.8} />
-			<p class="mt-4 text-sm text-gray-900">
+			<p class="mt-4 text-sm text-gray-900 group-hover:text-white">
 				373, Phase-2, Industrial Area,<br /> Panchkula-134109 (Haryana) INDIA
 			</p>
 		</div>
@@ -90,28 +90,28 @@ ${name}`;
 		<!-- Phone -->
 		<div
 			use:inView
-			class="reveal flex flex-col items-center rounded-xl p-6 text-gray-900 shadow-lg transition hover:bg-yellow-500 hover:text-black"
+			class="reveal group flex flex-col items-center rounded-xl p-6 shadow-lg transition hover:bg-brand-500 hover:text-white"
 		>
 			<HugeiconsIcon icon={TelephoneFreeIcons} size={32} color="currentColor" strokeWidth={1.8} />
-			<p class="mt-4 text-sm text-gray-900">9878883436, 9878883447</p>
+			<p class="mt-4 text-sm text-gray-900 group-hover:text-white">9878883436, 9878883447</p>
 		</div>
 
 		<!-- Email -->
 		<div
 			use:inView
-			class="reveal flex flex-col items-center rounded-xl p-6 text-gray-900 shadow-lg transition hover:bg-yellow-500 hover:text-black"
+			class="reveal group flex flex-col items-center rounded-xl p-6 shadow-lg transition hover:bg-brand-500 hover:text-white"
 		>
 			<HugeiconsIcon icon={Mail01FreeIcons} size={32} color="currentColor" strokeWidth={1.8} />
-			<p class="mt-4 text-sm text-gray-900">mail@shivabuilders.com</p>
+			<p class="mt-4 text-sm text-gray-900 group-hover:text-white">mail@shivabuilders.com</p>
 		</div>
 
 		<!-- Website -->
 		<div
 			use:inView
-			class="reveal flex flex-col items-center rounded-xl p-6 text-gray-900 shadow-lg transition hover:bg-yellow-500 hover:text-black"
+			class="reveal group flex flex-col items-center rounded-xl p-6 shadow-lg transition hover:bg-brand-500 hover:text-white"
 		>
 			<HugeiconsIcon icon={Globe02FreeIcons} size={32} color="currentColor" strokeWidth={1.8} />
-			<p class="mt-4 text-sm text-gray-900">www.shivabuilders.com</p>
+			<p class="mt-4 text-sm text-gray-900 group-hover:text-white">www.shivabuilders.com</p>
 		</div>
 	</div>
 </section>
@@ -125,7 +125,7 @@ ${name}`;
 				type="text"
 				bind:value={name}
 				placeholder="Name"
-				class="w-full rounded-lg border border-gray-300 bg-gray-100 px-4 py-3 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
+				class="w-full rounded-lg border border-gray-300 bg-gray-100 px-4 py-3 focus:ring-2 focus:ring-brand-500 focus:outline-none"
 			/>
 			<br />
 			<br />
@@ -133,7 +133,7 @@ ${name}`;
 				type="email"
 				bind:value={email}
 				placeholder="Email"
-				class="w-full rounded-lg border border-gray-300 bg-gray-100 px-4 py-3 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
+				class="w-full rounded-lg border border-gray-300 bg-gray-100 px-4 py-3 focus:ring-2 focus:ring-brand-500 focus:outline-none"
 			/>
 			<br />
 			<br />
@@ -141,7 +141,7 @@ ${name}`;
 				bind:value={message}
 				placeholder="Enter your message"
 				rows="4"
-				class="w-full rounded-lg border border-gray-300 bg-gray-100 px-4 py-3 focus:ring-2 focus:ring-yellow-500 focus:outline-none"
+				class="w-full rounded-lg border border-gray-300 bg-gray-100 px-4 py-3 focus:ring-2 focus:ring-brand-500 focus:outline-none"
 			></textarea>
 			<br />
 			<br />

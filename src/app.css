@@ -14,6 +14,18 @@
 	/* Brand Colors (extracted + matched to Tailwind scheme) */
 	--color-background: #07090e;
 
+	/* Brand Colors */
+	--color-brand-50:  #e6efff;
+	--color-brand-100: #ccddff;
+	--color-brand-200: #99bbff;
+	--color-brand-300: #6699ff;
+	--color-brand-400: #3377ff;
+	--color-brand-500: #034399;   /* Primary Brand Blue */
+	--color-brand-600: #033c89;
+	--color-brand-700: #023073;
+	--color-brand-800: #02265b;
+	--color-brand-900: #011a40;
+
 	--color-gray-900: #1f2937; /* close to gray-900 */
 	--color-gray-700: #333333; /* extracted dark gray */
 	--color-gray-300: #d1d5db; /* gray-300 text */

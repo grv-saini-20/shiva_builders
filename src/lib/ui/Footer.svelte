@@ -8,68 +8,43 @@
 </script>
 
 <!-- Main Footer Container -->
-<footer class="bg-gray-800 font-inter text-white">
-	<div class="mx-auto  px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+<footer class="bg-white font-inter text-gray-900">
+	<div class="mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
 		<!-- Top Section: Logo, Services, Contact -->
-		<div class="grid grid-cols-1 gap-12 border-b border-gray-700 pb-12 md:grid-cols-3">
+		<div class="grid grid-cols-1 gap-12 border-b border-gray-200 pb-12 md:grid-cols-3">
 			<!-- Column 1: Logo and Brand Info -->
 			<div class="flex flex-col space-y-4 md:col-span-1">
 				<div class="flex items-center space-x-2">
-					<!-- Logo (Using Lucide Icon for a clean, vector look) -->
-					<HugeiconsIcon
-						icon={Building01FreeIcons}
-						size={32}
-						color="currentColor"
-						strokeWidth={1.5}
-					/>
-					<div>
-						<h3 class="text-xl font-bold tracking-wider uppercase">Shiva Builders</h3>
-						<p class="text-xs text-gray-400">Construction & Design </p>
-					</div>
+					<a href="/" class="text-xl font-bold text-gray-900">
+    <img src="/images/SBLOGO.jpg" alt="logo" class="h-8 w-auto" />
+				</a>
 				</div>
-				<!-- Optional: Add a short, descriptive blurb here if needed -->
 			</div>
 
 			<!-- Column 2: Our Services Links -->
 			<div class="md:col-span-1">
-				<h4 class="relative mb-4 inline-block text-lg font-semibold text-white uppercase">
+				<h4 class="relative mb-4 inline-block text-lg font-semibold text-gray-900 uppercase">
 					Pages
-					<!-- Yellow underline aesthetic -->
-					<span class="absolute bottom-[-5px] left-0 h-[2px] w-1/3 bg-yellow-500"></span>
+					<span class="absolute bottom-[-5px] left-0 h-[2px] w-1/3 bg-brand-500"></span>
 				</h4>
-				<ul class="grid grid-cols-2 space-y-2 text-sm text-gray-400">
-					<li>
-						<a href="/about" class="transition-colors hover:text-yellow-500">About</a>
-					</li>
-					<li><a href="/services" class="transition-colors hover:text-yellow-500">Services</a></li>
-					<li>
-						<a href="/industries" class="transition-colors hover:text-yellow-500">Industries</a>
-					</li>
-					<li>
-						<a href="/projects" class="transition-colors hover:text-yellow-500">Projects</a>
-					</li>
-					<li>
-						<a href="/infrastructure" class="transition-colors hover:text-yellow-500"
-							>Infrastructure</a
-						>
-					</li>
-					<li>
-						<a href="/careers" class="transition-colors hover:text-yellow-500">Careers</a>
-					</li>
-					<li>
-						<a href="/contact" class="transition-colors hover:text-yellow-500">Contact</a>
-					</li>
+				<ul class="grid grid-cols-2 space-y-2 text-sm text-gray-900">
+					<li><a href="/about" class="transition-colors hover:text-brand-500">About</a></li>
+					<li><a href="/services" class="transition-colors hover:text-brand-500">Services</a></li>
+					<li><a href="/industries" class="transition-colors hover:text-brand-500">Industries</a></li>
+					<li><a href="/projects" class="transition-colors hover:text-brand-500">Projects</a></li>
+					<li><a href="/infrastructure" class="transition-colors hover:text-brand-500">Infrastructure</a></li>
+					<li><a href="/careers" class="transition-colors hover:text-brand-500">Careers</a></li>
+					<li><a href="/contact" class="transition-colors hover:text-brand-500">Contact</a></li>
 				</ul>
 			</div>
 
 			<!-- Column 3: Contact Info -->
 			<div class="md:col-span-1">
-				<h4 class="relative mb-4 inline-block text-lg font-semibold text-white uppercase">
-					CONTACT US
-					<!-- Yellow underline aesthetic -->
-					<span class="absolute bottom-[-5px] left-0 h-[2px] w-1/3 bg-yellow-500"></span>
+				<h4 class="relative mb-4 inline-block text-lg font-semibold text-gray-900 uppercase">
+					Contact Us
+					<span class="absolute bottom-[-5px] left-0 h-[2px] w-1/3 bg-brand-500"></span>
 				</h4>
-				<ul class="space-y-4 text-sm text-gray-400">
+				<ul class="space-y-4 text-sm text-gray-900">
 					<li class="flex items-start space-x-3">
 						<HugeiconsIcon
 							icon={Call02FreeIcons}
@@ -85,7 +60,8 @@
 							size={32}
 							color="currentColor"
 							strokeWidth={1.5}
-						/> <span>Address: 373, Phase-2, Indusrial Area, Panchkula 134109, Haryana (INDIA)</span>
+						/>
+						<span>Address: 373, Phase-2, Industrial Area, Panchkula 134109, Haryana (INDIA)</span>
 					</li>
 					<li class="flex items-start space-x-3">
 						<HugeiconsIcon
@@ -94,12 +70,12 @@
 							color="currentColor"
 							strokeWidth={1.5}
 						/>
-						<span
-							>Email: <a
-								href="mailto:contact@yoursite.com"
-								class="transition-colors hover:text-yellow-500">mail@shivabuilders.com</a
-							></span
-						>
+						<span>
+							Email:
+							<a href="mailto:mail@shivabuilders.com" class="transition-colors hover:text-brand-500">
+								mail@shivabuilders.com
+							</a>
+						</span>
 					</li>
 				</ul>
 			</div>
@@ -107,20 +83,19 @@
 
 		<!-- Bottom Section: Copyright Bar -->
 		<div class="flex flex-col items-center justify-between space-y-4 pt-8 md:flex-row md:space-y-0">
-			<div class="text-center text-sm text-gray-400 md:text-left">
+			<div class="text-center text-sm text-gray-900 md:text-left">
 				© {new Date().getFullYear()} ShivaBuilders. All rights reserved.
 			</div>
 			<div class="flex space-x-6">
-				<a
-					href="/privacy-policy"
-					class="text-sm text-gray-400 transition-colors hover:text-yellow-500">Privacy Policy</a
-				>
-				<a href="/terms" class="text-sm text-gray-400 transition-colors hover:text-yellow-500"
-					>Terms of Service</a
-				>
-				<a href="/legal" class="text-sm text-gray-400 transition-colors hover:text-yellow-500"
-					>Legal</a
-				>
+				<a href="/privacy-policy" class="text-sm text-gray-900 transition-colors hover:text-brand-500">
+					Privacy Policy
+				</a>
+				<a href="/terms" class="text-sm text-gray-900 transition-colors hover:text-brand-500">
+					Terms of Service
+				</a>
+				<a href="/legal" class="text-sm text-gray-900 transition-colors hover:text-brand-500">
+					Legal
+				</a>
 			</div>
 		</div>
 	</div>

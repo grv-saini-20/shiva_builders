@@ -61,12 +61,12 @@
 <!-- HERO -->
 <section class="relative flex min-h-screen flex-col items-center justify-center px-6 py-24">
 	<div class="absolute inset-0 bg-[url(/images/DWC1.jpg)] bg-cover bg-center lg:bg-fixed"></div>
-	<div class="absolute inset-0 bg-black/50"></div>
+	<div class="absolute inset-0 bg-black/75"></div>
 
 	<div class="relative z-10 max-w-3xl text-center uppercase">
 		<h1
 			use:inView
-			class="reveal px-2 text-4xl leading-snug font-extrabold text-yellow-500 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
+			class="reveal px-2 text-4xl leading-snug font-extrabold text-brand-400 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
 		>
 			Pioneering Futuristic Construction
 		</h1>
@@ -102,7 +102,7 @@
 			What We Offer
 		</h3>
 		<div
-			class="reveal mx-auto mt-4 h-1 w-20 rounded-full bg-yellow-500"
+			class="reveal mx-auto mt-4 h-1 w-20 rounded-full bg-brand-500"
 			use:inView
 		></div>
 	</div>
@@ -152,7 +152,7 @@
 			}}
 			class="reveal"
 		>
-			<h2 class="text-4xl font-bold text-yellow-300">{projects}</h2>
+			<h2 class="text-4xl font-bold text-brand-300">{projects}</h2>
 			<p class="mt-3 text-gray-300 uppercase">Completed Projects</p>
 		</div>
 		<div
@@ -166,7 +166,7 @@
 			}}
 			class="reveal"
 		>
-			<h2 class="text-4xl font-bold text-yellow-300">{sqft}</h2>
+			<h2 class="text-4xl font-bold text-brand-300">{sqft}</h2>
 			<p class="mt-3 text-gray-300 uppercase">Million SQ.FTS.<br />Completed Development</p>
 		</div>
 		<div
@@ -180,7 +180,7 @@
 			}}
 			class="reveal"
 		>
-			<h2 class="text-4xl font-bold text-yellow-300">{ongoing}</h2>
+			<h2 class="text-4xl font-bold text-brand-300">{ongoing}</h2>
 			<p class="mt-3 text-gray-300 uppercase">Ongoing Projects</p>
 		</div>
 		<div
@@ -194,7 +194,7 @@
 			}}
 			class="reveal"
 		>
-			<h2 class="text-4xl font-bold text-yellow-300">{personnel}</h2>
+			<h2 class="text-4xl font-bold text-brand-300">{personnel}</h2>
 			<p class="mt-3 text-gray-300 uppercase">Personnel Strength</p>
 		</div>
 		<div
@@ -208,7 +208,7 @@
 			}}
 			class="reveal"
 		>
-			<h2 class="text-4xl font-bold text-yellow-300">{experience}</h2>
+			<h2 class="text-4xl font-bold text-brand-300">{experience}</h2>
 			<p class="mt-3 text-gray-300 uppercase">Total Experience</p>
 		</div>
 	</div>
@@ -219,7 +219,7 @@
 		<!-- Section Header -->
 		<div class="mb-16 text-center">
 			<h2 class="reveal text-4xl font-bold text-black-900 uppercase" use:inView>PROJECTS</h2>
-			<div class="reveal mx-auto mt-3 h-1 w-20 rounded-full bg-yellow-500" use:inView></div>
+			<div class="reveal mx-auto mt-3 h-1 w-20 rounded-full bg-brand-500" use:inView></div>
 		</div>
 
 		<!-- Projects Grid -->

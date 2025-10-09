@@ -34,12 +34,12 @@
 	class="relative flex min-h-[70vh] flex-col items-center justify-center overflow-hidden px-6 py-24"
 >
 	<div class="absolute inset-0 bg-[url(/images/DWC1.jpg)] bg-cover bg-center lg:bg-fixed"></div>
-	<div class="absolute inset-0 bg-black/50"></div>
+	<div class="absolute inset-0 bg-black/75"></div>
 
 	<div class="relative z-10 max-w-3xl text-center">
 		<h1
 			use:inView
-			class="reveal px-2 text-4xl leading-snug font-extrabold text-yellow-500 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
+			class="reveal px-2 text-4xl leading-snug font-extrabold text-brand-400 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
 		>
 			Leadership
 		</h1>
@@ -54,7 +54,7 @@
 <section class="relative mx-auto max-w-5xl bg-gray-100 px-6 py-24">
 	<!-- Timeline for desktop only -->
 	<div
-		class="absolute top-0 bottom-0 left-1/2 hidden w-1 -translate-x-1/2 transform bg-yellow-200/50 md:block"
+		class="absolute top-0 bottom-0 left-1/2 hidden w-1 -translate-x-1/2 transform bg-brand-200/50 md:block"
 	></div>
 
 	<!-- Leader 1 -->
@@ -63,7 +63,7 @@
 	>
 		<div class="md:w-1/2 md:pr-12">
 			<h2 use:inView class="reveal text-2xl font-bold text-gray-900">Mr. Deepak Wadhawan</h2>
-			<p use:inView class="reveal mb-4 font-semibold text-yellow-500">DIRECTOR</p>
+			<p use:inView class="reveal mb-4 font-semibold text-brand-500">DIRECTOR</p>
 			<p use:inView class="reveal mb-2 leading-relaxed text-gray-600">
 				Mr. Deepak Wadhawan is the visionary leader of Shiva Builders having experience of more than
 				35 years overseeing end-to-end delivery of commercial and residential projects with a focus
@@ -81,7 +81,7 @@
 			</p>
 		</div>
 		<div
-			class="mt-8 h-6 w-6 rounded-full bg-yellow-500 shadow-lg md:absolute md:top-0 md:left-1/2 md:-translate-x-1/2"
+			class="mt-8 h-6 w-6 rounded-full bg-brand-500 shadow-lg md:absolute md:top-0 md:left-1/2 md:-translate-x-1/2"
 		></div>
 	</div>
 
@@ -91,7 +91,7 @@
 	>
 		<div class="md:w-1/2 md:pl-12">
 			<h2 use:inView class="reveal text-2xl font-bold text-gray-900">Mr. Mukul Wadhawan</h2>
-			<p use:inView class="reveal mb-4 font-semibold text-yellow-500">DIRECTOR</p>
+			<p use:inView class="reveal mb-4 font-semibold text-brand-500">DIRECTOR</p>
 			<p use:inView class="reveal mb-2 leading-relaxed text-gray-600">
 				Mr. Mukul Wadhawan, our dynamic Leader, propels building company's strategic growth. With
 				extensive expertise in Construction, he leads key decisions, fosters a positive workplace
@@ -111,7 +111,7 @@
 			</p>
 		</div>
 		<div
-			class="mt-8 h-6 w-6 rounded-full bg-yellow-500 shadow-lg md:absolute md:top-0 md:left-1/2 md:-translate-x-1/2"
+			class="mt-8 h-6 w-6 rounded-full bg-brand-500 shadow-lg md:absolute md:top-0 md:left-1/2 md:-translate-x-1/2"
 		></div>
 	</div>
 
@@ -121,7 +121,7 @@
 	>
 		<div class="md:w-1/2 md:pr-12">
 			<h2 use:inView class="reveal text-2xl font-bold text-gray-900">Mr. Shrey Wadhawan</h2>
-			<p use:inView class="reveal mb-4 font-semibold text-yellow-500">EXECUTIVE DIRECTOR</p>
+			<p use:inView class="reveal mb-4 font-semibold text-brand-500">EXECUTIVE DIRECTOR</p>
 			<p use:inView class="reveal mb-2 leading-relaxed text-gray-600">
 				At just 23 years old, Shrey Wadhawan is already making rapid growth in the construction
 				industry with sharp focus on sustainable and modern infrastructure. With passion for
@@ -138,7 +138,7 @@
 			</p>
 		</div>
 		<div
-			class="mt-8 h-6 w-6 rounded-full bg-yellow-500 shadow-lg md:absolute md:top-0 md:left-1/2 md:-translate-x-1/2"
+			class="mt-8 h-6 w-6 rounded-full bg-brand-500 shadow-lg md:absolute md:top-0 md:left-1/2 md:-translate-x-1/2"
 		></div>
 	</div>
 </section>

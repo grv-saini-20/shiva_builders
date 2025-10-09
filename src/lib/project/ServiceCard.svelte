@@ -17,7 +17,7 @@
 	}: IServiceCardProps = $props();
 
 	const baseClass = $derived(
-		`h-full group max-w-xs w-full bg-black-900  overflow-hidden shadow-xl transition-all duration-300 hover:shadow-2xl hover:scale-[1.02] ${customClass}`
+		`h-full group max-w-xs w-full bg-black-900 hover:bg-white  overflow-hidden shadow-xl transition-all duration-300 hover:shadow-2xl hover:scale-[1.02] ${customClass}`
 	);
 </script>
 
@@ -39,13 +39,13 @@
 	<div class="p-6">
 		<!-- Title: Use h4 style from your base layer, highlighted by yellow hover -->
 		<h4
-			class="mb-2 tracking-wide text-white uppercase transition-colors duration-200 group-hover:text-yellow-500"
+			class="mb-2 tracking-wide text-white uppercase transition-colors duration-200 group-hover:text-brand-500"
 		>
 			{title}
 		</h4>
 
 		<!-- Description: Uses p styles, using gray-300 for contrast -->
-		<p class="text-sm leading-relaxed text-gray-300">
+		<p class="text-sm leading-relaxed text-gray-300 group-hover:text-gray-700">
 			{description}
 		</p>
 	</div>

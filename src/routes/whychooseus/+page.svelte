@@ -34,12 +34,12 @@
 	class="relative flex min-h-[70vh] flex-col items-center justify-center overflow-hidden px-6 py-24"
 >
 	<div class="absolute inset-0 bg-[url(/images/DWC1.jpg)] bg-cover bg-center lg:bg-fixed"></div>
-	<div class="absolute inset-0 bg-black/50"></div>
+	<div class="absolute inset-0 bg-black/75"></div>
 
 	<div class="relative z-10 max-w-3xl text-center">
 		<h1
 			use:inView
-			class="reveal px-2 text-4xl leading-snug font-extrabold text-yellow-500 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
+			class="reveal px-2 text-4xl leading-snug font-extrabold text-brand-400 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
 		>
 			Why Choose Us
 		</h1>
@@ -59,7 +59,7 @@
 		<h2 class="reveal text-center text-4xl font-bold text-gray-900 uppercase" use:inView>
 			Why Choose Us
 		</h2>
-		<div class="reveal mx-auto mt-4 h-1 w-24 rounded-full bg-yellow-500" use:inView></div>
+		<div class="reveal mx-auto mt-4 h-1 w-24 rounded-full bg-brand-500" use:inView></div>
 	</div>
 
 	<div class="relative z-10 mx-auto grid max-w-7xl gap-12 md:grid-cols-2 lg:grid-cols-3">

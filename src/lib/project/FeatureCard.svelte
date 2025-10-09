@@ -21,7 +21,7 @@
 <!-- The card wrapper uses the black-700 background from your theme, rounded corners, and padding. -->
 <div class={baseClasses}>
 	<!-- Icon Slot: Center-aligned, large size -->
-	<div class="mb-6 flex h-16 w-16 items-center justify-center text-yellow-500">
+	<div class="mb-6 flex h-16 w-16 items-center justify-center text-brand-500">
 		<!-- 
       Placeholder SVG for a construction crane icon, matching the style in the uploaded image.
       You should replace the content of the 'icon' slot when using the component.

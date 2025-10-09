@@ -47,11 +47,11 @@
 <!-- Hero Section -->
 <section class="relative flex min-h-[70vh] items-center justify-center overflow-hidden">
 	<div class="absolute inset-0 bg-[url(/images/DWC1.jpg)] bg-cover bg-center lg:bg-fixed"></div>
-	<div class="absolute inset-0 bg-black/50"></div>
+	<div class="absolute inset-0 bg-black/75"></div>
 	<div class="relative z-10 max-w-3xl px-6 text-center">
 		<h1
 			use:inView
-			class="reveal px-2 text-4xl leading-snug font-extrabold text-yellow-500 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
+			class="reveal px-2 text-4xl leading-snug font-extrabold text-brand-400 uppercase sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
 		>
 			Infrastructure
 		</h1>
@@ -67,7 +67,7 @@
 				<div
 					class="absolute inset-0 hidden min-h-[500px] bg-[url(/images/Infra.jpg)] bg-cover bg-center shadow-lg md:block"
 				></div>
-				<div class="absolute inset-0 bg-black/50"></div>
+				<div class="absolute inset-0 bg-black/75"></div>
 			</div>
 
 			<!-- Right column: clean list -->
@@ -75,7 +75,7 @@
 				{#each infraData as item, i}
 					<div
 						use:inView
-						class="reveal flex items-center gap-6 border-s-[5px] border-s-yellow-500 bg-white p-6 shadow transition hover:shadow-xl"
+						class="reveal flex items-center gap-6 border-s-[5px] border-s-brand-500 bg-white p-6 shadow transition hover:shadow-xl"
 					>
 						<div class="min-w-[80px] text-3xl font-extrabold text-gray-900">{item.num}</div>
 						<p class="text-lg font-medium text-gray-900">{item.text}</p>
