@@ -51,7 +51,7 @@ Thank you,
 ${name}`;
 
 		const body = encodeURIComponent(bodyText);
-		const mailtoLink = `mailto:mail@Shiva Builders.com?subject=${subject}&body=${body}`;
+		const mailtoLink = `mailto:mail@shivabuilders.com?subject=${subject}&body=${body}`;
 		window.location.href = mailtoLink;
 	}
 </script>
@@ -102,7 +102,7 @@ ${name}`;
 			class="reveal flex flex-col items-center rounded-xl p-6 text-gray-900 shadow-lg transition hover:bg-yellow-500 hover:text-black"
 		>
 			<HugeiconsIcon icon={Mail01FreeIcons} size={32} color="currentColor" strokeWidth={1.8} />
-			<p class="mt-4 text-sm text-gray-900">mail@dwcinfra.com</p>
+			<p class="mt-4 text-sm text-gray-900">mail@shivabuilders.com</p>
 		</div>
 
 		<!-- Website -->
@@ -111,7 +111,7 @@ ${name}`;
 			class="reveal flex flex-col items-center rounded-xl p-6 text-gray-900 shadow-lg transition hover:bg-yellow-500 hover:text-black"
 		>
 			<HugeiconsIcon icon={Globe02FreeIcons} size={32} color="currentColor" strokeWidth={1.8} />
-			<p class="mt-4 text-sm text-gray-900">www.dwcinfra.com</p>
+			<p class="mt-4 text-sm text-gray-900">www.shivabuilders.com</p>
 		</div>
 	</div>
 </section>
