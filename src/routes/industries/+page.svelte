@@ -71,7 +71,7 @@
 <section
 	class="relative flex min-h-[70vh] flex-col items-center justify-center overflow-hidden px-6 py-20"
 >
-	<div class="absolute inset-0 bg-[url(/images/DWC1.jpg)] bg-cover bg-center lg:bg-fixed"></div>
+	<div class="absolute inset-0 bg-[url(/images/DWC1.webp)] bg-cover bg-center lg:bg-fixed"></div>
 	<div class="absolute inset-0 bg-black/75"></div>
 
 	<div class="relative z-10 max-w-3xl text-center">
